@@ -22,11 +22,12 @@
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>AnalyticsDemoHMI</Name>
-    <HmiCommunicationRouterPort>10100</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10107</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13000</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.760.59</HmiInitial>
     <HmiRecent>1.12.760.59</HmiRecent>
     <HmiServerNodeAdvancedView>False</HmiServerNodeAdvancedView>
+    <HmiServerNodeAdvancedSettingsView>True</HmiServerNodeAdvancedSettingsView>
   </PropertyGroup>
   <PropertyGroup>
     <TwinCATHmi_Tasks>$(TcHmiDirectory)\MSBuild\Beckhoff.TwinCAT.HMI.tasks</TwinCATHmi_Tasks>
@@ -115,6 +116,7 @@
     <Folder Include="Imports\Videos" />
     <Folder Include="KeyboardLayouts\" />
     <Folder Include="Localization" />
+    <Folder Include="Controls" />
     <Folder Include="Pages\" />
     <Folder Include="Server\ADS\" />
     <Folder Include="Server\TcHmiLua\" />
@@ -134,6 +136,13 @@
     <Folder Include="Properties" />
     <Content Include=".eslintrc.json">
       <Visible>false</Visible>
+    </Content>
+    <Content Include="Controls\SimpleProgressBar.usercontrol">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Controls\SimpleProgressBar.usercontrol.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Controls\SimpleProgressBar.usercontrol</DependentUpon>
     </Content>
     <Content Include="Pages\CNC.content">
       <SubType>Content</SubType>

@@ -1,12 +1,11 @@
 <?xml version="1.0"?>
 <TcSmProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.56">
-	<Project ProjectGUID="{DD865B2A-09F7-4AA2-B621-AB2229CDCE35}" TargetNetId="169.254.18.187.1.1" Target64Bit="true" ShowHideConfigurations="#x6">
+	<Project ProjectGUID="{DD865B2A-09F7-4AA2-B621-AB2229CDCE35}" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
-			<Licenses CacheOrCheckLicensesOnStartup="true">
+			<Licenses>
 				<Target>
 					<ManualSelect>{3FF18E97-7754-401B-93FB-70544DE28A13}</ManualSelect>
 					<ManualSelect>{796D380F-D49E-4C0C-A05F-500052FAC883}</ManualSelect>
-					<LicenseDevice DongleHardwareId="2" DongleDevice="#x71010001" DongleLevel="92" DongleSystemId="{3D9B26BC-A368-AB81-3FF1-1EE313775FEE}"/>
 				</Target>
 			</Licenses>
 			<Tasks>
@@ -17,7 +16,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{DFD4E3B2-165F-4FCF-983C-709FFCFD90F7}" Name="ControlProgram" PrjFilePath="ControlProgram\ControlProgram.plcproj" TmcFilePath="ControlProgram\ControlProgram.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ControlProgram\ControlProgram.tmc" TmcHash="{3ECE1C75-0895-0D4D-65DD-08DE459B57F6}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ControlProgram\ControlProgram.tmc" TmcHash="{F9A57325-A0BB-D6C4-99F6-B6B0404D6246}">
 					<Name>ControlProgram Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Contexts>

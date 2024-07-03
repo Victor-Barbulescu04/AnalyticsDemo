@@ -1,9 +1,30 @@
+
 <div id="Vision" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%">
 
 
 
-<div id="TcHmiHtmlHost" data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost" data-tchmi-height="300" data-tchmi-height-unit="px" data-tchmi-left="68" data-tchmi-left-unit="px" data-tchmi-top="52" data-tchmi-top-unit="px" data-tchmi-width="300" data-tchmi-width-unit="px">
-</div>
-<div id="TcHmiIFrame" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiIFrame" data-tchmi-height="200" data-tchmi-height-unit="px" data-tchmi-left="472" data-tchmi-left-unit="px" data-tchmi-top="125" data-tchmi-top-unit="px" data-tchmi-width="300" data-tchmi-width-unit="px">
+    <div id="TcHmiHtmlHost" data-tchmi-type="TcHmi.Controls.System.TcHmiHtmlHost" data-tchmi-height="300" data-tchmi-height-unit="px" data-tchmi-left="68" data-tchmi-left-unit="px" data-tchmi-top="54" data-tchmi-top-unit="px" data-tchmi-width="300" data-tchmi-width-unit="px">
+        <a href="https://www.beckhoff.com/en-us/">
+            Link To Beckhoff
+        </a>
+        <video id="camera-stream" controls autoplay></video>
+
+        <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+            {
+            "color": "rgba(255, 0, 0, 1)"
+            }
+        </script>
+    </div>
+
+
+    <div id="TcHmiIFrame_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiIFrame" data-tchmi-height="932" data-tchmi-height-unit="px" data-tchmi-left="454" data-tchmi-left-unit="px" data-tchmi-top="112" data-tchmi-top-unit="px" data-tchmi-width="1394" data-tchmi-width-unit="px" data-tchmi-src="http://127.0.0.1:8080">
+    </div>
+<div id="SimpleProgressBar_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="39" data-tchmi-left-unit="px" data-tchmi-target-user-control="Controls/SimpleProgressBar.usercontrol" data-tchmi-top="635" data-tchmi-top-unit="px" data-tchmi-value="%s%PLC1.MAIN.j%/s%" data-tchmi-width="338" data-tchmi-width-unit="px">
+<script data-tchmi-target-attribute="data-tchmi-fillcolor" type="application/json">
+{
+  "color": "rgba(0, 30, 255, 1)"
+}
+</script>
+
 </div>
 </div>

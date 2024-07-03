@@ -389,3 +389,7 @@ div[data-tchmi-type="TcHmi.Controls.System.TcHmiView"] {
     border-style: none solid none none;
     box-shadow: rgba(85, 106, 127, 0.176) 0 32px 32px 0;
 }
+
+.tchmi-class-SimpleProgressBar_1.SimpleProgressBar {
+    transition: width 0.2s;
+}
