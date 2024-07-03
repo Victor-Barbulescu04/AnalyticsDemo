@@ -1,0 +1,35 @@
+IP Camera Setup documentation:
+username: admin
+Password: Beckhoff
+Verification Code: 1234567
+Fathers Name: Don Shanklin
+Mothers Name: Dani
+Favorite Celebrity: Hans Beckhoff
+IP: 10.199.178.17
+Subnet: 255.255.255.192
+
+Instructions:
+// You can bypass the first step but when setting this ip for the first time it can be beneficial for trouble shooting
+1. Run the SADP.exe that is inside of SADP240312
+	This will allow you to find any of the IP camera on the network in case the IP address has changed
+2. Open your browser and type in the IP addess of the camera. Currently 10.199.178.17
+	You can also access the camera by double clicking the ip address inside the SADP window
+3. Enter the login credintials. You will not be able to see any footage yet as there is another plug in you must download and run
+4. Run the LocalServiceComponent.exe or download it by clicking the "download plug-in" button in the top right of your camera web page
+5. Run vlc-3.0.21-win64.exe and the open it up. 
+6. In VLC click on media and select "Open Network Stream" drom the drop down
+	Paste this into the network URL: rtsp://10.199.178.17:554
+	If you get a pop-up asking you to login enter the username and password above
+	If no pop-up appears check the RSTP port nmuber by going to your browser connection selecting configuration
+		Then Network and port. This will then display the current RSTP port number
+7. If the IP address of the camera has not changed open the batch file named "CameraStream.bat", leave this open. Then double click the batch file and run it
+	The batch file will look like this:
+		vlc.exe -vvv -Idummy rtsp://admin:Beckhoff@10.199.178.17:554 --sout #transcode{vcodec=MJPG,venc=ffmpeg{strict=1}}:standard{access=http{mime=multipart/x-mixed-replace;boundary=--7b3cc56e5f51db803f790dad720ed50a},mux=mpjpeg,dst=:8080/};
+	If the IP address of the camera has changed adjust |		| to match the new IP. Additionally, if your RSTP has changed adjust the 554 value to get your connection.
+8. with this running you will now be able to access your camera feed by connecting your IFrame to "http://127.0.0.1:8080". Adjust this as needed depending on your server location.
+9. Make the connection and open your HMI in the browser. If there is no image there could be a long delay, in this case wait roughly 10 minutes to see if an image appears.
+	If the image appears but is delayed from real time images, restart the computer running VLC and repeat steps 6 through 8.
+	If a message pops up saying the connection has been refused contact either myself: 
+		Michael McDonald (224) 368-8638, m.mcdonald@beckhoff.com
+		Michael Williams (952) 452-4951, M.Williams@beckhoff.com
+		Jeremy Braun	 J.Braun@beckhoff.com
