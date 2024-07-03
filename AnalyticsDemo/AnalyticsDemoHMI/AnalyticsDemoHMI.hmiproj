@@ -144,6 +144,13 @@
       <SubType>Content</SubType>
       <DependentUpon>Controls\SimpleProgressBar.usercontrol</DependentUpon>
     </Content>
+    <Content Include="Controls\StreamLocation.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Controls\StreamLocation.js</DependentUpon>
+    </Content>
+    <Content Include="Controls\StreamLocation.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\CNC.content">
       <SubType>Content</SubType>
     </Content>
