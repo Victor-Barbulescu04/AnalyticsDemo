@@ -29,6 +29,14 @@
             "READ_ONLY": false,
             "SYMBOLS": {},
             "USE_WHITELISTING": false
+        },
+        "XplanarPC": {
+            "ENABLED": true,
+            "NETID": "5.93.137.52.1.1",
+            "PORT": 851,
+            "READ_ONLY": false,
+            "SYMBOLS": {},
+            "USE_WHITELISTING": false
         }
     },
     "RUNTIME_STATE_CHECK_INTERVAL": "PT2S",
