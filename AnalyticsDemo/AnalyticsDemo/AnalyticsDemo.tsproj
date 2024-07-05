@@ -3,9 +3,19 @@
 	<Project ProjectGUID="{DD865B2A-09F7-4AA2-B621-AB2229CDCE35}" Target64Bit="true" ShowHideConfigurations="#x6">
 		<System>
 			<Licenses>
-				<Target>
+				<Target BkhfOrder="CP2221" CustomOrder="BACH">
 					<ManualSelect>{3FF18E97-7754-401B-93FB-70544DE28A13}</ManualSelect>
+					<ManualSelect>{BB40055B-8333-4223-90EA-7C4559DC7C69}</ManualSelect>
+					<ManualSelect>{0070B910-0995-4F44-83BF-D1E141B4D8C3}</ManualSelect>
+					<ManualSelect>{4156C772-5DC6-40A9-B3F8-C3D5A097513C}</ManualSelect>
+					<ManualSelect>{02AC2825-C3C7-4D15-AAF6-4EB45EFAA2D0}</ManualSelect>
 					<ManualSelect>{796D380F-D49E-4C0C-A05F-500052FAC883}</ManualSelect>
+					<ManualSelect>{EE499E71-9522-4C05-86B4-8AD0F904E0C4}</ManualSelect>
+					<ManualSelect>{99A3CF49-FFBF-49D4-BA30-F4C0593B5161}</ManualSelect>
+					<ManualSelect>{88FA6DAB-09EF-464E-A413-EE4B97F3F185}</ManualSelect>
+					<ManualSelect>{7561ACC6-B225-4960-A93E-395C788D9597}</ManualSelect>
+					<ManualSelect>{BB7AE665-A8D6-41F6-954F-961DDDCDA42B}</ManualSelect>
+					<ManualSelect>{520DE751-9DB6-47CB-8240-BD5C466E7E64}</ManualSelect>
 				</Target>
 			</Licenses>
 			<Tasks>
@@ -16,7 +26,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{DFD4E3B2-165F-4FCF-983C-709FFCFD90F7}" Name="ControlProgram" PrjFilePath="ControlProgram\ControlProgram.plcproj" TmcFilePath="ControlProgram\ControlProgram.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ControlProgram\ControlProgram.tmc" TmcHash="{F9A57325-A0BB-D6C4-99F6-B6B0404D6246}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="ControlProgram\ControlProgram.tmc" TmcHash="{225E6A3A-5AE6-E0AF-216F-5BD1FB687F29}">
 					<Name>ControlProgram Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Contexts>
