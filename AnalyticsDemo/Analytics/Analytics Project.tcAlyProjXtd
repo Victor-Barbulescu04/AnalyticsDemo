@@ -1,0 +1,8 @@
+﻿<AnalyticsProjectAdditionalElements>
+  <Network>
+    <ID>1</ID>
+    <Name>Network</Name>
+    <DisplayColor>Black</DisplayColor>
+    <SortPriority>100</SortPriority>
+  </Network>
+</AnalyticsProjectAdditionalElements>
