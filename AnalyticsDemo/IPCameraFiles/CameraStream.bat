@@ -1,1 +1,1 @@
-vlc.exe -vvv -Idummy rtsp://admin:Beckhoff@10.199.178.17:554 --sout #transcode{vcodec=MJPG,venc=ffmpeg{strict=1}}:standard{access=http{mime=multipart/x-mixed-replace;boundary=--7b3cc56e5f51db803f790dad720ed50a},mux=mpjpeg,dst=:8080/};
+"C:\Program Files\VideoLAN\VLC\vlc.exe" -vvv -Idummy rtsp://admin:Beckhoff@10.199.178.17:554 --sout #transcode{vcodec=MJPG,venc=ffmpeg{strict=1}}:standard{access=http{mime=multipart/x-mixed-replace;boundary=--7b3cc56e5f51db803f790dad720ed50a},mux=mpjpeg,dst=:8080/};

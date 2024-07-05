@@ -17,8 +17,29 @@
     </div>
 
 
-    <div id="TcHmiIFrame_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiIFrame" data-tchmi-height="720" data-tchmi-height-unit="px" data-tchmi-left="455" data-tchmi-left-unit="px" data-tchmi-top="112" data-tchmi-top-unit="px" data-tchmi-width="1280" data-tchmi-width-unit="px" data-tchmi-src="http://127.0.0.1:8080">
-    </div>
+    <div id="TcHmiIFrame_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiIFrame" data-tchmi-height="720" data-tchmi-height-unit="px" data-tchmi-left="453" data-tchmi-left-unit="px" data-tchmi-top="112" data-tchmi-top-unit="px" data-tchmi-width="1280" data-tchmi-width-unit="px">
+    
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiIFrame_1.onAttached",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%TcHmiIFrame_1::Src%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%f%TcHmi.Functions.AnalyticsDemoHMI.StreamLocation()%/f%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
 <div id="SimpleProgressBar_1" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="100" data-tchmi-height-unit="px" data-tchmi-left="39" data-tchmi-left-unit="px" data-tchmi-target-user-control="Controls/SimpleProgressBar.usercontrol" data-tchmi-top="635" data-tchmi-top-unit="px" data-tchmi-value="%s%PLC1.MAIN.j%/s%" data-tchmi-width="338" data-tchmi-width-unit="px">
 <script data-tchmi-target-attribute="data-tchmi-fillcolor" type="application/json">
 {

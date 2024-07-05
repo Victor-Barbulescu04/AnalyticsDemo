@@ -50,6 +50,11 @@
       "name": "Fonts/Fonts.css",
       "description": "",
       "type": "Stylesheet"
+    },
+    {
+      "name": "Controls/StreamLocation.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [
@@ -116,7 +121,11 @@
       "preloadBindings": false
     }
   ],
-  "userFunctions": [],
+  "userFunctions": [
+    {
+      "url": "Controls/StreamLocation.js"
+    }
+  ],
   "symbols": {
     "internal": {
       "MediaQueryList": {
