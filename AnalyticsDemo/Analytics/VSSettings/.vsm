@@ -1,0 +1,45 @@
+<Node>
+  <Title>Analytics</Title>
+  <Expanded>False</Expanded>
+  <FileName></FileName>
+  <Children>
+    <Node>
+      <Title>Analytics Project</Title>
+      <Expanded>True</Expanded>
+      <FileName>C:\Users\VictorB\Documents\Github\AnalyticsDemo\AnalyticsDemo\Analytics\Analytics Project.tcAlyProj</FileName>
+      <Children>
+        <Node>
+          <Title>Network</Title>
+          <Expanded>False</Expanded>
+          <FileName></FileName>
+          <Children />
+        </Node>
+        <Node>
+          <Title>Dashboard</Title>
+          <Expanded>False</Expanded>
+          <FileName></FileName>
+          <Children />
+        </Node>
+        <Node>
+          <Title>Inputs</Title>
+          <Expanded>False</Expanded>
+          <FileName></FileName>
+          <Children>
+            <Node>
+              <Title>Virtual Mappings</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+            <Node>
+              <Title>Sources</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
+          </Children>
+        </Node>
+      </Children>
+    </Node>
+  </Children>
+</Node>
