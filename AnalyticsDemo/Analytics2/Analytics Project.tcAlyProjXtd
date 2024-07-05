@@ -252,6 +252,37 @@
         </SubMember>
         <Title>Input</Title>
       </NetworkInVariableGroup>
+      <NetworkOutVariableGroup AssemblyName="TwinCAT.Analytics.Workbench">
+        <Comment />
+        <DisplayColor>Black</DisplayColor>
+        <Guid>d2118252-c55e-4747-8eec-9f0d9167fea9</Guid>
+        <Name>NetworkOutVariableGroup_7805</Name>
+        <SortPriority>2</SortPriority>
+        <SubMember>
+          <NetworkOutVariable AssemblyName="TwinCAT.Analytics.Workbench">
+            <Category></Category>
+            <Comment />
+            <DisplayColor>Black</DisplayColor>
+            <Guid>f93d5638-aadc-4cb8-95ea-b40c5bc01dec</Guid>
+            <IncludeInReferencedScope>false</IncludeInReferencedScope>
+            <Name>NetworkOutVariable_7806</Name>
+            <OptionalVariable>false</OptionalVariable>
+            <RelatedElementID>
+              <ElementID>
+                <OID>16844192</OID>
+                <PID>2164260872</PID>
+                <GUID>00000000-0000-0000-0000-000000000000</GUID>
+                <DynamicIdx>-1</DynamicIdx>
+              </ElementID>
+            </RelatedElementID>
+            <ScopeRefreshOptions />
+            <SortPriority>0</SortPriority>
+            <Title>Num Intervals @ Network</Title>
+            <ToolTip />
+          </NetworkOutVariable>
+        </SubMember>
+        <Title>Num Intervals</Title>
+      </NetworkOutVariableGroup>
     </SubMember>
     <Title>Network_611</Title>
     <TriggerResults>false</TriggerResults>

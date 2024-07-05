@@ -8,6 +8,7 @@ VAR
 	j : INT;
 	Timerss :Ton := (IN := TRUE, PT := T#1MS);
 	// Michael is a stinker
+	// Victor is a real Stinker
 
 
 END_VAR
