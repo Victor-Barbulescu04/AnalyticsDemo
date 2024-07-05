@@ -7,6 +7,7 @@ VAR
 	i : INT;
 	j : INT;
 	Timerss :TON;
+	// Michael is a stinker
 
 
 END_VAR
