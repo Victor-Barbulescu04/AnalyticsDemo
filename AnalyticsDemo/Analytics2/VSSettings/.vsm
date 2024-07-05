@@ -19,6 +19,12 @@
               <FileName></FileName>
               <Children />
             </Node>
+            <Node>
+              <Title>Continuous Piece Counter 1Ch</Title>
+              <Expanded>False</Expanded>
+              <FileName></FileName>
+              <Children />
+            </Node>
           </Children>
         </Node>
         <Node>
@@ -34,7 +40,7 @@
           <Children>
             <Node>
               <Title>Virtual Mappings</Title>
-              <Expanded>False</Expanded>
+              <Expanded>True</Expanded>
               <FileName></FileName>
               <Children>
                 <Node>
@@ -564,6 +570,12 @@
                       <FileName></FileName>
                       <Children />
                     </Node>
+                    <Node>
+                      <Title>CleanModeOn</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
                   </Children>
                 </Node>
               </Children>
@@ -573,6 +585,241 @@
               <Expanded>True</Expanded>
               <FileName></FileName>
               <Children>
+                <Node>
+                  <Title>5.93.137.52.1.1: 851 [10.00ms]</Title>
+                  <Expanded>True</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>GVL.CleanModeOn</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.StationFeatureOn</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.PackMLBaseModule_HMI.Command.State</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.PackMLBaseModule_HMI.Status.State</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.a</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.b</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.c</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.z</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActVelo.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActVelo.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.a</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.b</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.c</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.z</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActVelo.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActVelo.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.a</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.b</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.c</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.z</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActVelo.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActVelo.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.a</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.b</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.c</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.z</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActVelo.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActVelo.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Restart.RESTART</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>TimeLine</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
                 <Node>
                   <Title>169.254.18.187.1.1: 851 [10.00ms]</Title>
                   <Expanded>False</Expanded>
@@ -1111,520 +1358,6 @@
               </Children>
             </Node>
           </Children>
-        </Node>
-      </Children>
-    </Node>
-    <Node>
-      <Title>Referenced Scope Project</Title>
-      <Expanded>False</Expanded>
-      <FileName>C:\Users\Administrator\Documents\AnalyticsFolder\AnalyticsDemo\AnalyticsDemo\Analytics2\Referenced Scope Project.tcscopex</FileName>
-      <Children>
-        <Node>
-          <Title>DataPool</Title>
-          <Expanded>False</Expanded>
-          <FileName></FileName>
-          <Children>
-            <Node>
-              <Title>_TaskOid_PlcTask</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>_TaskPouOid_PlcTask</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>AdsPort</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>AdsPort (1)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>AppTimestamp</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>bActive</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>BootDataLoaded</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>bProfilingTask</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>bShouldBlock</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>BSODOccured</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>bWatchdog</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>bWithinSPSTimeSlicing</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>byDummy</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>Counter</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>CycleCount</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>CycleTime</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>CycleTimeExceeded</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>DcTaskTime</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>diJitter</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>diJitterMax</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>diJitterMin</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwAverageCycleTime</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwCycleCount</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwEventFunctionPointer^</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwIECCycleCount</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwInterval</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwLastCycleTime</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwMaxCycleTime</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwMinCycleTime</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwTaskEntryFunctionPointer^</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwVersion</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwWatchdogSensitivity</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>dwWatchdogTime</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>ET</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>FirstCycle</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>Flags</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>i</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iBuild</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iBuild (1)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iBuild (2)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iMajor</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iMajor (1)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iMajor (2)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iMinor</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iMinor (1)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iMinor (2)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>IN</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>InCallAfterOutputUpdate</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iRevision</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iRevision (1)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>iRevision (2)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>j</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>KeepOutputsOnBP</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>KindOf</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>LastExecTime</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>LicensesPending</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>LoggedIn</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>M</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>nFlags</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>nFlags (1)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>nFlags (2)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>nPriority</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>ObjId</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>ObjId (1)</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>OldBootData</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>OnlineChangeCnt</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>PersistentStatus</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>Priority</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>PT</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>Q</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>RTViolation</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>ShutdownInProgress</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>StartTime</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>TaskCnt</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>wCountJitterNeg</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>wCountJitterPos</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>wNumOfJitterDistributions</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>wRangeMax</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-            <Node>
-              <Title>wTaskStatus</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children />
-            </Node>
-          </Children>
-        </Node>
-        <Node>
-          <Title>Network</Title>
-          <Expanded>False</Expanded>
-          <FileName></FileName>
-          <Children>
-            <Node>
-              <Title>BIT</Title>
-              <Expanded>False</Expanded>
-              <FileName></FileName>
-              <Children>
-                <Node>
-                  <Title>Q</Title>
-                  <Expanded>False</Expanded>
-                  <FileName></FileName>
-                  <Children />
-                </Node>
-              </Children>
-            </Node>
-          </Children>
-        </Node>
-        <Node>
-          <Title>Trigger</Title>
-          <Expanded>False</Expanded>
-          <FileName></FileName>
-          <Children />
         </Node>
       </Children>
     </Node>

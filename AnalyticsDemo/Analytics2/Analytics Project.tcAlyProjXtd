@@ -18,10 +18,29 @@
     <SortPriority>100</SortPriority>
     <Title>HMICtrlInfo_641</Title>
   </HMICtrlInfo>
+  <HMICtrlInfo AssemblyName="TwinCAT.Analytics.CodeGenerator.HMI">
+    <Clsid>02040116-0000-0000-f000-000000000064</Clsid>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <DisplayText>Continuous Piece Counter 1Ch</DisplayText>
+    <DockOnDesktop>false</DockOnDesktop>
+    <GenerateGVL>false</GenerateGVL>
+    <GlobalVariableType>InOutVariables</GlobalVariableType>
+    <Guid>cd01783a-724c-487e-9923-f4e8c19be75a</Guid>
+    <ModuleIdentification>00000000-0000-0000-0000-000000000000</ModuleIdentification>
+    <Name>HMICtrlInfo_7203</Name>
+    <ReferencedModule>CTcAlyContinuousPieceCounter_1Ch</ReferencedModule>
+    <SelectedMapping>
+      <CtrlAlgMapGuid>00000000-0000-0000-0000-000000000000</CtrlAlgMapGuid>
+      <AlgorithmGuid>00000000-0000-0000-0000-000000000000</AlgorithmGuid>
+    </SelectedMapping>
+    <SortPriority>100</SortPriority>
+    <Title>HMICtrlInfo_7203</Title>
+  </HMICtrlInfo>
   <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
     <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
     <CollapsedMembers>
-      <InVariable IncludeInReferencedScope="True">2147483648</InVariable>
+      <InVariable IncludeInReferencedScope="False">2147483648</InVariable>
       <InVariable IncludeInReferencedScope="True">2147483664</InVariable>
       <InVariable IncludeInReferencedScope="True">2147483665</InVariable>
       <OutVariable IncludeInReferencedScope="False">2164260864</OutVariable>
@@ -46,8 +65,44 @@
     <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
     <SelfEnabled>true</SelfEnabled>
     <ShowOptionalInputs>false</ShowOptionalInputs>
-    <SortPriority>100</SortPriority>
+    <SortPriority>256</SortPriority>
     <Title>FunctionAppearance_642</Title>
+  </FunctionAppearance>
+  <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
+    <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
+    <CollapsedMembers>
+      <InVariable IncludeInReferencedScope="True">2147483648</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483664</InVariable>
+      <InVariable IncludeInReferencedScope="True">2147483665</InVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260864</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260872</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260880</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260888</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260896</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260904</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260912</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260920</OutVariable>
+      <OutVariable IncludeInReferencedScope="False">2164260928</OutVariable>
+    </CollapsedMembers>
+    <Comment />
+    <DisplayColor>Black</DisplayColor>
+    <Guid>8cb53b62-77b0-49c5-9f6a-3a1f5ecef977</Guid>
+    <IncludeInReferencedScope>true</IncludeInReferencedScope>
+    <IncludeInReport>true</IncludeInReport>
+    <Name>FunctionAppearance_7204</Name>
+    <ParentNetworkEnabled>true</ParentNetworkEnabled>
+    <ReferencedModule>CTcAlyContinuousPieceCounter_1Ch</ReferencedModule>
+    <RptDataKey />
+    <RptIncludeOptionalVariables>false</RptIncludeOptionalVariables>
+    <SelectedReportingMappingId>
+      <CtrlAlgMapGuid>997c5c25-9a39-45e4-aa05-100000001001</CtrlAlgMapGuid>
+      <AlgorithmGuid>35cfd307-6b82-4936-91e9-100000000011</AlgorithmGuid>
+    </SelectedReportingMappingId>
+    <SelectedScopeConfiguration>00000000-0000-0000-0000-000000000000</SelectedScopeConfiguration>
+    <SelfEnabled>true</SelfEnabled>
+    <ShowOptionalInputs>false</ShowOptionalInputs>
+    <SortPriority>384</SortPriority>
+    <Title>FunctionAppearance_7204</Title>
   </FunctionAppearance>
   <FunctionResultInfo AssemblyName="TwinCAT.Analytics.Workbench">
     <Comment />
@@ -60,8 +115,19 @@
     <Title>FunctionResultInfo_643</Title>
     <TriggerResult>false</TriggerResult>
   </FunctionResultInfo>
+  <FunctionResultInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <Comment />
+    <CreateResult>false</CreateResult>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>4448b89f-81f4-45cf-a7f8-dafb2ff3d909</Guid>
+    <Name>FunctionResultInfo_7205</Name>
+    <ReferencedModule>CTcAlyContinuousPieceCounter_1Ch</ReferencedModule>
+    <SortPriority>100</SortPriority>
+    <Title>FunctionResultInfo_7205</Title>
+    <TriggerResult>false</TriggerResult>
+  </FunctionResultInfo>
   <InputSourceInfo AssemblyName="TwinCAT.Analytics.Workbench">
-    <ChartGuid>eed3ec76-ea8d-4295-975e-a89b6d80d5be</ChartGuid>
+    <ChartGuid>00000000-0000-0000-0000-000000000000</ChartGuid>
     <Comment />
     <CycleTime>10000000</CycleTime>
     <DisplayColor>Black</DisplayColor>
@@ -82,6 +148,28 @@
     <TimeOffset>0</TimeOffset>
     <Title>169.254.18.187.1.1: 851 [10.00ms]</Title>
   </InputSourceInfo>
+  <InputSourceInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <ChartGuid>00000000-0000-0000-0000-000000000000</ChartGuid>
+    <Comment />
+    <CycleTime>10000000</CycleTime>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>01005b68-cc36-433c-8e1b-eefe302264c0</Guid>
+    <HasCustomTitle>false</HasCustomTitle>
+    <Name>InputSourceInfo_6505</Name>
+    <ReferencedModule>c49d7631-68cb-4999-b232-f5fd7890ed87</ReferencedModule>
+    <ReferencedTitle>5.93.137.52.1.1:851</ReferencedTitle>
+    <SortPriority>100</SortPriority>
+    <SourceInfo>&lt;TargetInfo TargetId="0"&gt;
+  &lt;AmsAddress&gt;
+    &lt;AmsNetId&gt;5.93.137.52.1.1&lt;/AmsNetId&gt;
+    &lt;Port&gt;851&lt;/Port&gt;
+  &lt;/AmsAddress&gt;
+  &lt;CycleTime Context="0"&gt;100000&lt;/CycleTime&gt;
+  &lt;CurrentContextMask&gt;0&lt;/CurrentContextMask&gt;
+&lt;/TargetInfo&gt;</SourceInfo>
+    <TimeOffset>0</TimeOffset>
+    <Title>5.93.137.52.1.1: 851 [10.00ms]</Title>
+  </InputSourceInfo>
   <Network AssemblyName="TwinCAT.Analytics.Workbench">
     <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
     <Closed>false</Closed>
@@ -97,7 +185,7 @@
     <IncludeInReport>false</IncludeInReport>
     <IncludeSubMemberInReport>true</IncludeSubMemberInReport>
     <Name>Network</Name>
-    <NetworkChartGuid>e08a3540-31ec-49cc-93d3-48334e6d39a4</NetworkChartGuid>
+    <NetworkChartGuid>00000000-0000-0000-0000-000000000000</NetworkChartGuid>
     <ParentNetworkEnabled>true</ParentNetworkEnabled>
     <PersistentResults>false</PersistentResults>
     <RptDataKey>0 - Network</RptDataKey>
@@ -168,7 +256,7 @@
     <Title>Network_611</Title>
     <TriggerResults>false</TriggerResults>
     <VisibleArrayChartGuid>00000000-0000-0000-0000-000000000000</VisibleArrayChartGuid>
-    <VisibleNetworkChartGuid>2731e4e4-7df1-4cfe-a093-8f318155e934</VisibleNetworkChartGuid>
+    <VisibleNetworkChartGuid>00000000-0000-0000-0000-000000000000</VisibleNetworkChartGuid>
   </Network>
   <ProjectInfo AssemblyName="TwinCAT.Analytics.Workbench">
     <AxisGenerationStyle>AxisPerDataType</AxisGenerationStyle>
@@ -178,32 +266,9 @@
     <GuidToElementIDReferences />
     <Name>ProjectInfo_5</Name>
     <RefreshRefScopeMode>Automatic</RefreshRefScopeMode>
-    <ScopeAnalyticsReferences>
-      <DictionaryItem>
-        <Key>
-          <guid>673cf5d5-cd3a-42f2-a3bb-92cfa72b4ace</guid>
-        </Key>
-        <Value>
-          <ArrayOfGuid>
-            <guid>2731e4e4-7df1-4cfe-a093-8f318155e934</guid>
-            <guid>ae32d6c3-13bd-428f-8240-9a9ad6ebb516</guid>
-            <guid>7891262e-dd49-4cc0-a382-0808321cb0a3</guid>
-          </ArrayOfGuid>
-        </Value>
-      </DictionaryItem>
-      <DictionaryItem>
-        <Key>
-          <guid>84288cf2-f17f-4515-82f4-e1f50bad82d2</guid>
-        </Key>
-        <Value>
-          <ArrayOfGuid>
-            <guid>25343b71-33cf-4f8b-bc92-61349d20244d</guid>
-          </ArrayOfGuid>
-        </Value>
-      </DictionaryItem>
-    </ScopeAnalyticsReferences>
+    <ScopeAnalyticsReferences />
     <ScopeGenerationType>ChartPerNetwork</ScopeGenerationType>
-    <ScopeProjectGuid>534cb00f-b5e8-4ae8-a34c-4b3b1d69a610</ScopeProjectGuid>
+    <ScopeProjectGuid>00000000-0000-0000-0000-000000000000</ScopeProjectGuid>
     <SortPriority>100</SortPriority>
     <Title>ProjectInfo_5</Title>
     <UseScopeRecording>true</UseScopeRecording>
@@ -576,13 +641,373 @@
               </Pair>
             </Value>
           </Pair>
+          <Pair>
+            <Key>
+              <Name>Configuration</Name>
+              <Source>c49d7631-68cb-4999-b232-f5fd7890ed87</Source>
+            </Key>
+            <Value>
+              <Pair>
+                <Key>79491366-077d-48c4-9bfd-8bcf41ba9716</Key>
+                <Value>Global_Version.stLibVersion_Tc2_Standard.iMajor</Value>
+              </Pair>
+              <Pair>
+                <Key>bf5551f0-096e-421f-9a2b-851d6f4a0d91</Key>
+                <Value>Global_Version.stLibVersion_Tc2_Standard.iMinor</Value>
+              </Pair>
+              <Pair>
+                <Key>4d5be51f-ca36-417f-ab24-0e4e5b57f492</Key>
+                <Value>Global_Version.stLibVersion_Tc2_Standard.iBuild</Value>
+              </Pair>
+              <Pair>
+                <Key>16990998-a5ab-4b08-9c3f-3c3cc5857979</Key>
+                <Value>Global_Version.stLibVersion_Tc2_Standard.iRevision</Value>
+              </Pair>
+              <Pair>
+                <Key>cc78f8ff-2fc1-4d67-afef-4cbb90569b8e</Key>
+                <Value>Global_Version.stLibVersion_Tc2_Standard.nFlags</Value>
+              </Pair>
+              <Pair>
+                <Key>13f7f2ac-3aa4-4b46-8f7d-a365ab1e2362</Key>
+                <Value>Global_Version.stLibVersion_Tc2_Standard.sVersion</Value>
+              </Pair>
+              <Pair>
+                <Key>48ef300d-2d7b-4dc8-91ec-31c766eec8f9</Key>
+                <Value>Global_Version.stLibVersion_Tc2_System.iMajor</Value>
+              </Pair>
+              <Pair>
+                <Key>dd98d20e-9027-4757-bd56-2ee3064e9c17</Key>
+                <Value>Global_Version.stLibVersion_Tc2_System.iMinor</Value>
+              </Pair>
+              <Pair>
+                <Key>954adbae-53e9-41d3-8239-c110d24f0df2</Key>
+                <Value>Global_Version.stLibVersion_Tc2_System.iBuild</Value>
+              </Pair>
+              <Pair>
+                <Key>2f22c2a8-49ed-4910-89b3-6a64ce3aba2a</Key>
+                <Value>Global_Version.stLibVersion_Tc2_System.iRevision</Value>
+              </Pair>
+              <Pair>
+                <Key>f0c5b8b5-fffe-49e8-bd09-ac9d69bf3207</Key>
+                <Value>Global_Version.stLibVersion_Tc2_System.nFlags</Value>
+              </Pair>
+              <Pair>
+                <Key>8fdd4b87-8e74-4e6b-a232-5e57eb5a9258</Key>
+                <Value>Global_Version.stLibVersion_Tc2_System.sVersion</Value>
+              </Pair>
+              <Pair>
+                <Key>281ef835-1d52-4435-a0fb-f6e42adeb209</Key>
+                <Value>Global_Version.stLibVersion_Tc3_Module.iMajor</Value>
+              </Pair>
+              <Pair>
+                <Key>4fa30e46-48d3-42ce-a6ed-a13cf6ca2ea6</Key>
+                <Value>Global_Version.stLibVersion_Tc3_Module.iMinor</Value>
+              </Pair>
+              <Pair>
+                <Key>acc85bc8-5fe3-4e67-842e-1c4e4e35a954</Key>
+                <Value>Global_Version.stLibVersion_Tc3_Module.iBuild</Value>
+              </Pair>
+              <Pair>
+                <Key>822b6d8e-885a-4dfb-a1b2-4c543d59f849</Key>
+                <Value>Global_Version.stLibVersion_Tc3_Module.iRevision</Value>
+              </Pair>
+              <Pair>
+                <Key>ad147269-c9db-4a49-94d8-3e3887b52a50</Key>
+                <Value>Global_Version.stLibVersion_Tc3_Module.nFlags</Value>
+              </Pair>
+              <Pair>
+                <Key>062b89b6-df18-4323-8116-38d6b569478b</Key>
+                <Value>Global_Version.stLibVersion_Tc3_Module.sVersion</Value>
+              </Pair>
+              <Pair>
+                <Key>cfe01afb-a55b-467c-aa60-a21c7ba1cb75</Key>
+                <Value>MAIN.Counter</Value>
+              </Pair>
+              <Pair>
+                <Key>8b48bb56-6125-45f5-a808-2730d2a6c7df</Key>
+                <Value>MAIN.i</Value>
+              </Pair>
+              <Pair>
+                <Key>1fcb29c2-d42a-43bf-b1ed-1d416784ef65</Key>
+                <Value>MAIN.j</Value>
+              </Pair>
+              <Pair>
+                <Key>ecef4201-9cc2-43cf-a733-5fbf39acfdeb</Key>
+                <Value>MAIN.Timerss.IN</Value>
+              </Pair>
+              <Pair>
+                <Key>c90cbdf4-bf81-49fe-ba23-fdd01761fd1c</Key>
+                <Value>MAIN.Timerss.PT</Value>
+              </Pair>
+              <Pair>
+                <Key>dd09985c-aa88-4c0c-bee5-f1780382cba6</Key>
+                <Value>MAIN.Timerss.Q</Value>
+              </Pair>
+              <Pair>
+                <Key>6e3b9b6e-d712-4112-80e8-394266a6b0cf</Key>
+                <Value>MAIN.Timerss.ET</Value>
+              </Pair>
+              <Pair>
+                <Key>4bf4a07e-0317-4f14-bad5-725fe3490ac3</Key>
+                <Value>MAIN.Timerss.M</Value>
+              </Pair>
+              <Pair>
+                <Key>2dc48c72-dfc2-4944-80ee-08ae7a98d0cc</Key>
+                <Value>MAIN.Timerss.StartTime</Value>
+              </Pair>
+              <Pair>
+                <Key>e1573983-d888-4fec-952a-888a953ac034</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwVersion</Value>
+              </Pair>
+              <Pair>
+                <Key>51522992-df0c-4609-8524-ac14098a8bfc</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.pszName^</Value>
+              </Pair>
+              <Pair>
+                <Key>1fa37245-4b40-4bea-b859-817cca8ccfd1</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.nPriority</Value>
+              </Pair>
+              <Pair>
+                <Key>82632a89-0b8d-4e67-9d25-477e0cceac49</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.KindOf</Value>
+              </Pair>
+              <Pair>
+                <Key>3bd39ad0-04ef-4ad2-aab3-76b588ca95a9</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.bWatchdog</Value>
+              </Pair>
+              <Pair>
+                <Key>005f4104-1a08-4712-a808-a40bcaca8c46</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.bProfilingTask</Value>
+              </Pair>
+              <Pair>
+                <Key>5dd1f80d-289d-4c98-8d44-5020b51d5445</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwEventFunctionPointer^</Value>
+              </Pair>
+              <Pair>
+                <Key>c82b9ee8-b0bf-4b6f-892f-6db721a23457</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.pszExternalEvent^</Value>
+              </Pair>
+              <Pair>
+                <Key>94a0657d-dc13-4552-9c61-540bcbed07ef</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwTaskEntryFunctionPointer^</Value>
+              </Pair>
+              <Pair>
+                <Key>6d9dd33c-9876-4ba1-b8bf-31dbbd734879</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwWatchdogSensitivity</Value>
+              </Pair>
+              <Pair>
+                <Key>44bf8585-2df8-4d64-8441-41c6852e9596</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwInterval</Value>
+              </Pair>
+              <Pair>
+                <Key>43aa0ab6-8cf6-4666-8545-5c1d34859cde</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwWatchdogTime</Value>
+              </Pair>
+              <Pair>
+                <Key>16a9e82e-cbc4-4f4c-8ab9-3b434127a74e</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwLastCycleTime</Value>
+              </Pair>
+              <Pair>
+                <Key>bedfb08d-d0b5-4b7f-b1a0-62f17fe2b9f1</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwAverageCycleTime</Value>
+              </Pair>
+              <Pair>
+                <Key>fe61fac9-e0cc-49ee-9515-ef2f82c11cbd</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwMaxCycleTime</Value>
+              </Pair>
+              <Pair>
+                <Key>e2ca91c2-4e1b-4d7b-b22e-4cb436c4383b</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwMinCycleTime</Value>
+              </Pair>
+              <Pair>
+                <Key>e75031d4-c88e-4aa7-996c-532459f6e768</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.diJitter</Value>
+              </Pair>
+              <Pair>
+                <Key>b2857575-cb40-4d3e-8e5a-45b2239e958c</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.diJitterMin</Value>
+              </Pair>
+              <Pair>
+                <Key>3171e881-1a6d-4ad0-b1ff-fb348fd4a13f</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.diJitterMax</Value>
+              </Pair>
+              <Pair>
+                <Key>cc51b9ac-2e1c-4312-9ad3-3a003d01c2d9</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwCycleCount</Value>
+              </Pair>
+              <Pair>
+                <Key>cc824d82-2305-4da5-9d44-f1e3d3a143d7</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.wTaskStatus</Value>
+              </Pair>
+              <Pair>
+                <Key>adfbbc77-b565-433a-9000-51379c034dbc</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.wNumOfJitterDistributions</Value>
+              </Pair>
+              <Pair>
+                <Key>9825762e-b130-451e-a791-e0d84783ba31</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.pJitterDistribution^.wRangeMax</Value>
+              </Pair>
+              <Pair>
+                <Key>adfec1a5-6f44-443c-944e-c3b7a6f7fbfa</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.pJitterDistribution^.wCountJitterNeg</Value>
+              </Pair>
+              <Pair>
+                <Key>7c3d9262-8a12-487e-8bf9-ab80d5dd3bfa</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.pJitterDistribution^.wCountJitterPos</Value>
+              </Pair>
+              <Pair>
+                <Key>5a651c8f-4b63-45c9-adb6-28b7bc9800da</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.bWithinSPSTimeSlicing</Value>
+              </Pair>
+              <Pair>
+                <Key>a85f2cb8-2e12-442a-8f08-d2a33fc19166</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.byDummy</Value>
+              </Pair>
+              <Pair>
+                <Key>88ed7bef-7775-46ab-a4fa-8bf3a6ed30a4</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.bShouldBlock</Value>
+              </Pair>
+              <Pair>
+                <Key>2580fd84-a798-45f6-8616-283479742883</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.bActive</Value>
+              </Pair>
+              <Pair>
+                <Key>769cfbf1-4e5e-4fa9-bd55-1a989f37c14e</Key>
+                <Value>TwinCAT_SystemInfoVarList.__PlcTask.dwIECCycleCount</Value>
+              </Pair>
+              <Pair>
+                <Key>19f6da72-0906-445c-bb12-ee59756c9656</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.ObjId</Value>
+              </Pair>
+              <Pair>
+                <Key>8ff3ce66-76e4-4163-9800-ea8044b44d4b</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.TaskCnt</Value>
+              </Pair>
+              <Pair>
+                <Key>169ba337-7b89-416e-a9c0-0402fe7b25ad</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.OnlineChangeCnt</Value>
+              </Pair>
+              <Pair>
+                <Key>5759bc0f-5e94-4119-b50b-3275642d2e26</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.Flags</Value>
+              </Pair>
+              <Pair>
+                <Key>bfeccd11-f249-4886-a9c2-d1581b61a95c</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.AdsPort</Value>
+              </Pair>
+              <Pair>
+                <Key>f6dbe8ab-6149-4525-a07a-1fd47e39fe63</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.BootDataLoaded</Value>
+              </Pair>
+              <Pair>
+                <Key>3b8c0695-9a73-4934-8937-a6a3ba0bdc62</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.OldBootData</Value>
+              </Pair>
+              <Pair>
+                <Key>2de41e76-51c8-4e35-b9d6-3d365a49cea3</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.AppTimestamp</Value>
+              </Pair>
+              <Pair>
+                <Key>65f53e0c-64d3-481b-ab9e-9f6dadfd9968</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.KeepOutputsOnBP</Value>
+              </Pair>
+              <Pair>
+                <Key>79961951-6e31-4d10-aabe-856cb6590c76</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.ShutdownInProgress</Value>
+              </Pair>
+              <Pair>
+                <Key>e22ba803-323e-4460-b297-06a2ec6b9774</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.LicensesPending</Value>
+              </Pair>
+              <Pair>
+                <Key>50cd2a0e-3d08-4aa6-b6a5-29b97c68c650</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.BSODOccured</Value>
+              </Pair>
+              <Pair>
+                <Key>b36203d9-bd9f-4415-b3c3-c1e2ca816e32</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.LoggedIn</Value>
+              </Pair>
+              <Pair>
+                <Key>7a7d94b7-df24-4479-872a-63c5c12f72ba</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.PersistentStatus</Value>
+              </Pair>
+              <Pair>
+                <Key>552674e1-2b56-4d29-a903-3c0a1879440b</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.AppName</Value>
+              </Pair>
+              <Pair>
+                <Key>6d05b62b-3343-4336-8bf9-f8d523698e69</Key>
+                <Value>TwinCAT_SystemInfoVarList._AppInfo.ProjectName</Value>
+              </Pair>
+              <Pair>
+                <Key>5b059a6c-118e-4def-803e-2823e176d598</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].ObjId</Value>
+              </Pair>
+              <Pair>
+                <Key>c426062a-57c9-444b-831a-98033e24bb45</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].CycleTime</Value>
+              </Pair>
+              <Pair>
+                <Key>b9a7c16c-dcfa-490f-86ce-d45457112063</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].Priority</Value>
+              </Pair>
+              <Pair>
+                <Key>42c047bd-bcda-460a-bcaa-d0caaf850540</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].AdsPort</Value>
+              </Pair>
+              <Pair>
+                <Key>81a13900-9c0a-4f1e-b071-8a52c2e59c26</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].CycleCount</Value>
+              </Pair>
+              <Pair>
+                <Key>11701d20-4803-42a4-b5a4-bcf1375ec2c1</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].DcTaskTime</Value>
+              </Pair>
+              <Pair>
+                <Key>8c2e04eb-6a50-4c25-a527-f469e86b3bd5</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].LastExecTime</Value>
+              </Pair>
+              <Pair>
+                <Key>0672b880-7fe8-4466-af57-bb7abf5f1e55</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].FirstCycle</Value>
+              </Pair>
+              <Pair>
+                <Key>e8996867-8069-4685-82bd-eeb9ba5494e8</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].CycleTimeExceeded</Value>
+              </Pair>
+              <Pair>
+                <Key>695e05a2-2bba-4ccf-9ec6-58ca9c0d9727</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].InCallAfterOutputUpdate</Value>
+              </Pair>
+              <Pair>
+                <Key>b9f58df0-0cb9-4f97-ae2b-6ec6f19f18e1</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].RTViolation</Value>
+              </Pair>
+              <Pair>
+                <Key>9294cc04-da86-4c0f-91da-b5a5f787f1a1</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskInfo[1].TaskName</Value>
+              </Pair>
+              <Pair>
+                <Key>d7a0f54e-6538-4c8e-835d-6ec60ad6e381</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskOid_PlcTask</Value>
+              </Pair>
+              <Pair>
+                <Key>49afa670-70df-463c-b361-e505e07e97bb</Key>
+                <Value>TwinCAT_SystemInfoVarList._TaskPouOid_PlcTask</Value>
+              </Pair>
+              <Pair>
+                <Key>c8fcef5e-aa20-4bd1-8754-332dc409d9e6</Key>
+                <Value>GVL.CleanModeOn</Value>
+              </Pair>
+            </Value>
+          </Pair>
         </Configurations>
         <CurrentConfig>Configuration</CurrentConfig>
         <DisplayColor>Black</DisplayColor>
         <Guid>25ccac40-63f2-4fa7-83ff-005a3da1ccaa</Guid>
         <Name>VirtualInputSource_770</Name>
         <SortPriority>100</SortPriority>
-        <SourceGuid>2ce68fc2-544e-4098-b108-73a1d04a84e6</SourceGuid>
+        <SourceGuid>c49d7631-68cb-4999-b232-f5fd7890ed87</SourceGuid>
         <SubMember>
           <FunctionAppearance AssemblyName="TwinCAT.Analytics.Workbench">
             <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
@@ -1743,6 +2168,25 @@
             <SourceId>TwinCAT_SystemInfoVarList._TaskPouOid_PlcTask</SourceId>
             <StaticValue></StaticValue>
             <Title>_TaskPouOid_PlcTask</Title>
+          </VirtualInput>
+          <VirtualInput AssemblyName="TwinCAT.Analytics.Workbench">
+            <Comment />
+            <ConnectedVariablesIds>
+              <VariableID>
+                <FunctionID>16844192</FunctionID>
+                <InVariableGUID>00000000-0000-0000-0000-000000000000</InVariableGUID>
+                <InVariableID>2147483648</InVariableID>
+              </VariableID>
+            </ConnectedVariablesIds>
+            <DisplayColor>Black</DisplayColor>
+            <GenerateGVL>false</GenerateGVL>
+            <Guid>c8fcef5e-aa20-4bd1-8754-332dc409d9e6</Guid>
+            <IsStaticValue>false</IsStaticValue>
+            <Name>VirtualInput_7241</Name>
+            <SortPriority>88</SortPriority>
+            <SourceId>GVL.CleanModeOn</SourceId>
+            <StaticValue></StaticValue>
+            <Title>CleanModeOn</Title>
           </VirtualInput>
         </SubMember>
         <Title>Virtual Input Source</Title>
