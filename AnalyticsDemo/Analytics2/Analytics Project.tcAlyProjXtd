@@ -132,7 +132,7 @@
     <CycleTime>10000000</CycleTime>
     <DisplayColor>Black</DisplayColor>
     <Guid>3c850e25-a52e-4f22-95b9-198174c514fb</Guid>
-    <HasCustomTitle>false</HasCustomTitle>
+    <HasCustomTitle>true</HasCustomTitle>
     <Name>InputSourceInfo_766</Name>
     <ReferencedModule>2ce68fc2-544e-4098-b108-73a1d04a84e6</ReferencedModule>
     <ReferencedTitle>169.254.18.187.1.1:851</ReferencedTitle>
@@ -146,7 +146,7 @@
   &lt;CurrentContextMask&gt;0&lt;/CurrentContextMask&gt;
 &lt;/TargetInfo&gt;</SourceInfo>
     <TimeOffset>0</TimeOffset>
-    <Title>169.254.18.187.1.1: 851 [10.00ms]</Title>
+    <Title>CP2221-Local</Title>
   </InputSourceInfo>
   <InputSourceInfo AssemblyName="TwinCAT.Analytics.Workbench">
     <ChartGuid>00000000-0000-0000-0000-000000000000</ChartGuid>
@@ -154,7 +154,7 @@
     <CycleTime>10000000</CycleTime>
     <DisplayColor>Black</DisplayColor>
     <Guid>01005b68-cc36-433c-8e1b-eefe302264c0</Guid>
-    <HasCustomTitle>false</HasCustomTitle>
+    <HasCustomTitle>true</HasCustomTitle>
     <Name>InputSourceInfo_6505</Name>
     <ReferencedModule>c49d7631-68cb-4999-b232-f5fd7890ed87</ReferencedModule>
     <ReferencedTitle>5.93.137.52.1.1:851</ReferencedTitle>
@@ -168,7 +168,7 @@
   &lt;CurrentContextMask&gt;0&lt;/CurrentContextMask&gt;
 &lt;/TargetInfo&gt;</SourceInfo>
     <TimeOffset>0</TimeOffset>
-    <Title>5.93.137.52.1.1: 851 [10.00ms]</Title>
+    <Title>CX2062-XPlanar</Title>
   </InputSourceInfo>
   <Network AssemblyName="TwinCAT.Analytics.Workbench">
     <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>

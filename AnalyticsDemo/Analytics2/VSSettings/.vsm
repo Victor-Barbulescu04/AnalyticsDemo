@@ -586,242 +586,7 @@
               <FileName></FileName>
               <Children>
                 <Node>
-                  <Title>5.93.137.52.1.1: 851 [10.00ms]</Title>
-                  <Expanded>True</Expanded>
-                  <FileName></FileName>
-                  <Children>
-                    <Node>
-                      <Title>GVL.CleanModeOn</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>GVL.StationFeatureOn</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.PackMLBaseModule_HMI.Command.State</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.PackMLBaseModule_HMI.Status.State</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.a</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.b</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.c</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.x</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.y</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.z</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActVelo.x</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActVelo.y</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.a</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.b</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.c</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.x</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.y</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.z</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActVelo.x</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActVelo.y</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.a</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.b</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.c</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.x</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.y</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.z</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActVelo.x</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActVelo.y</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.a</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.b</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.c</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.x</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.y</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.z</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActVelo.x</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActVelo.y</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>MAIN.Restart.RESTART</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                    <Node>
-                      <Title>TimeLine</Title>
-                      <Expanded>False</Expanded>
-                      <FileName></FileName>
-                      <Children />
-                    </Node>
-                  </Children>
-                </Node>
-                <Node>
-                  <Title>169.254.18.187.1.1: 851 [10.00ms]</Title>
+                  <Title>CP2221-Local</Title>
                   <Expanded>False</Expanded>
                   <FileName></FileName>
                   <Children>
@@ -1349,6 +1114,241 @@
                     </Node>
                     <Node>
                       <Title>TwinCAT_SystemInfoVarList._TaskPouOid_PlcTask</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                  </Children>
+                </Node>
+                <Node>
+                  <Title>CX2062-XPlanar</Title>
+                  <Expanded>False</Expanded>
+                  <FileName></FileName>
+                  <Children>
+                    <Node>
+                      <Title>GVL.CleanModeOn</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>GVL.StationFeatureOn</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.PackMLBaseModule_HMI.Command.State</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.PackMLBaseModule_HMI.Status.State</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.a</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.b</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.c</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActPos.z</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActVelo.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[1]._Mover.ActVelo.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.a</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.b</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.c</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActPos.z</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActVelo.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[2]._Mover.ActVelo.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.a</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.b</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.c</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActPos.z</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActVelo.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[3]._Mover.ActVelo.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.a</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.b</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.c</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActPos.z</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActVelo.x</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Machine.XPlanar.Movers[4]._Mover.ActVelo.y</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>MAIN.Restart.RESTART</Title>
+                      <Expanded>False</Expanded>
+                      <FileName></FileName>
+                      <Children />
+                    </Node>
+                    <Node>
+                      <Title>TimeLine</Title>
                       <Expanded>False</Expanded>
                       <FileName></FileName>
                       <Children />
