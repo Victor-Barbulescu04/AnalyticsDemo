@@ -1,0 +1,3687 @@
+﻿<TcRuntimAdapterProject>
+  <DataTypes>
+    <DataType>
+      <Name GUID="{02040010-0001-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyBase</Name>
+      <BitSize X64="64">32</BitSize>
+      <BaseType GUID="{00000001-0000-0000-E000-000000000064}">ITcUnknown</BaseType>
+      <Method>
+        <Name>Reset</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+      </Method>
+      <Hides>
+        <Hide GUID="{02040010-0000-0000-E000-000000000064}" />
+      </Hides>
+    </DataType>
+    <DataType>
+      <Name GUID="{D158CBD4-0226-41A0-9D2C-C4C3592D0D0C}" Namespace="Tc3_Analytics">E_ALY_DataType</Name>
+      <Comment><![CDATA[Configure data type]]></Comment>
+      <BitSize>16</BitSize>
+      <BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+      <EnumInfo>
+        <Text><![CDATA[NotInitialized]]></Text>
+        <Enum>0</Enum>
+        <Comment><![CDATA[Not initialized]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[BOOL_]]></Text>
+        <Enum>1</Enum>
+        <Comment><![CDATA[BOOL]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[BYTE_]]></Text>
+        <Enum>2</Enum>
+        <Comment><![CDATA[BYTE]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[WORD_]]></Text>
+        <Enum>3</Enum>
+        <Comment><![CDATA[WORD]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[DWORD_]]></Text>
+        <Enum>4</Enum>
+        <Comment><![CDATA[DWORD]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[SINT_]]></Text>
+        <Enum>5</Enum>
+        <Comment><![CDATA[SINT]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[USINT_]]></Text>
+        <Enum>6</Enum>
+        <Comment><![CDATA[USINT]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[INT_]]></Text>
+        <Enum>7</Enum>
+        <Comment><![CDATA[INT]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[UINT_]]></Text>
+        <Enum>8</Enum>
+        <Comment><![CDATA[UINT]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[DINT_]]></Text>
+        <Enum>9</Enum>
+        <Comment><![CDATA[DINT]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[UDINT_]]></Text>
+        <Enum>10</Enum>
+        <Comment><![CDATA[UDINT]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[LINT_]]></Text>
+        <Enum>11</Enum>
+        <Comment><![CDATA[LINT]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[ULINT_]]></Text>
+        <Enum>12</Enum>
+        <Comment><![CDATA[ULINT]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[REAL_]]></Text>
+        <Enum>13</Enum>
+        <Comment><![CDATA[REAL]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[LREAL_]]></Text>
+        <Enum>14</Enum>
+        <Comment><![CDATA[LREAL]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[LWORD_]]></Text>
+        <Enum>15</Enum>
+        <Comment><![CDATA[LWORD]]></Comment>
+      </EnumInfo>
+      <Default>
+        <EnumText>NotInitialized</EnumText>
+      </Default>
+      <Properties>
+        <Property>
+          <Name>plcAttribute_qualified_only</Name>
+        </Property>
+        <Property>
+          <Name>plcAttribute_strict</Name>
+        </Property>
+      </Properties>
+      <Hides>
+        <Hide GUID="{7DF0A0A8-BEDA-4D99-8AB2-B3FF176D5DE6}" />
+      </Hides>
+    </DataType>
+    <DataType>
+      <Name GUID="{93FFE2DF-52A7-4DCD-8425-50143FA7DFF3}" Namespace="Tc3_Analytics">E_ALY_ComparisonOperator</Name>
+      <Comment><![CDATA[Configure comparison opeator]]></Comment>
+      <BitSize>16</BitSize>
+      <BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+      <EnumInfo>
+        <Text><![CDATA[NotInitialized]]></Text>
+        <Enum>0</Enum>
+        <Comment><![CDATA[Not initialized]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[GreaterThan]]></Text>
+        <Enum>1</Enum>
+        <Comment><![CDATA[Greater Than]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[GreaterThanOrEqualTo]]></Text>
+        <Enum>2</Enum>
+        <Comment><![CDATA[Greater Than or Equal To]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[LessThan]]></Text>
+        <Enum>3</Enum>
+        <Comment><![CDATA[Less Than]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[LessThanOrEqualTo]]></Text>
+        <Enum>4</Enum>
+        <Comment><![CDATA[Less Than or Equal To]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Equals]]></Text>
+        <Enum>5</Enum>
+        <Comment><![CDATA[Equals]]></Comment>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[NotEqualTo]]></Text>
+        <Enum>6</Enum>
+        <Comment><![CDATA[Not equal To]]></Comment>
+      </EnumInfo>
+      <Default>
+        <EnumText>NotInitialized</EnumText>
+      </Default>
+      <Properties>
+        <Property>
+          <Name>plcAttribute_qualified_only</Name>
+        </Property>
+        <Property>
+          <Name>plcAttribute_strict</Name>
+        </Property>
+      </Properties>
+    </DataType>
+    <DataType>
+      <Name GUID="{02040101-0001-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyEdgeCounter_1Ch</Name>
+      <BitSize X64="64">32</BitSize>
+      <BaseType GUID="{02040010-0001-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyBase</BaseType>
+      <Method>
+        <Name>setChannelValue</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>pDataIn</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000018}">PVOID</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>nSize</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000008}">UDINT</Type>
+          <BitSize>32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>eDataType</Name>
+          <Type GUID="{D158CBD4-0226-41A0-9D2C-C4C3592D0D0C}" Namespace="Tc3_Analytics">E_ALY_DataType</Type>
+          <BitSize>16</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>Call</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>tTimestamp</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</Type>
+          <BitSize>64</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>bNewResult</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000030}" ReferenceTo="true">BOOL</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>bEdge</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000030}" ReferenceTo="true">BOOL</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>nCount</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>tLastEvent</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>getResults</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>nCount</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>tLastEvent</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>ConfigureChannel</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>eComparisonOperatorEdge</Name>
+          <Type GUID="{93FFE2DF-52A7-4DCD-8425-50143FA7DFF3}" Namespace="Tc3_Analytics">E_ALY_ComparisonOperator</Type>
+          <BitSize>16</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>fThresholdEdge</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</Type>
+          <BitSize>64</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>Configure</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+      </Method>
+      <Method>
+        <Name>setInitial</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>nCount</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Hides>
+        <Hide GUID="{02040101-0000-0000-E000-000000000064}" />
+      </Hides>
+    </DataType>
+    <DataType>
+      <Name GUID="{4A9CB0E9-8969-4B85-B567-605110511200}" TcBaseType="true" CName="ITcEvent*">ITcEvent</Name>
+      <BitSize X64="64">32</BitSize>
+      <BaseType GUID="{00000001-0000-0000-E000-000000000064}">ITcUnknown</BaseType>
+    </DataType>
+    <DataType>
+      <Name GUID="{CBABCE69-289D-4490-A8FE-F81B1741D1A1}" TcBaseType="true" CName="TcEventArgumentType*">TcEventArgumentType</Name>
+      <BitSize>16</BitSize>
+      <BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+      <EnumInfo>
+        <Text><![CDATA[Undefined]]></Text>
+        <Enum>0</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Boolean]]></Text>
+        <Enum>1</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Int8]]></Text>
+        <Enum>2</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Int16]]></Text>
+        <Enum>3</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Int32]]></Text>
+        <Enum>4</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Int64]]></Text>
+        <Enum>5</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[UInt8]]></Text>
+        <Enum>6</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[UInt16]]></Text>
+        <Enum>7</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[UInt32]]></Text>
+        <Enum>8</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[UInt64]]></Text>
+        <Enum>9</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Float]]></Text>
+        <Enum>10</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Double]]></Text>
+        <Enum>11</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Char]]></Text>
+        <Enum>12</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[WChar]]></Text>
+        <Enum>13</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[StringType]]></Text>
+        <Enum>14</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[WStringType]]></Text>
+        <Enum>15</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[EventReference]]></Text>
+        <Enum>16</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[FormatString]]></Text>
+        <Enum>17</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[ExternalTimestamp]]></Text>
+        <Enum>18</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[Blob]]></Text>
+        <Enum>19</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[AdsNotificationStream]]></Text>
+        <Enum>20</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[UTF8EncodedString]]></Text>
+        <Enum>21</Enum>
+      </EnumInfo>
+      <Properties>
+        <Property>
+          <Name>plcAttribute_qualified_only</Name>
+        </Property>
+        <Property>
+          <Name>plcAttribute_strict</Name>
+        </Property>
+      </Properties>
+      <Hides>
+        <Hide GUID="{A1C88D80-AC7F-419E-838D-233C8A8C0184}" />
+        <Hide GUID="{939C2FD3-7468-4E5B-AA5D-A64A143B36A8}" />
+      </Hides>
+    </DataType>
+    <DataType>
+      <Name GUID="{BFC9A87A-F6DE-499A-AC45-F3B1A59315F9}" TcBaseType="true" CName="ITcArguments*">ITcArguments</Name>
+      <BitSize X64="64">32</BitSize>
+      <BaseType GUID="{00000001-0000-0000-E000-000000000064}">ITcUnknown</BaseType>
+      <Method>
+        <Name>Count</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>nCount</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000008}" ReferenceTo="true">UDINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>AddArgument</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>eType</Name>
+          <Type GUID="{CBABCE69-289D-4490-A8FE-F81B1741D1A1}">TcEventArgumentType</Type>
+          <BitSize>16</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>pData</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000018}">PVOID</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>cbData</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000008}">UDINT</Type>
+          <BitSize>32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>Get</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>nIndex</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000008}">UDINT</Type>
+          <BitSize>32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>eType</Name>
+          <Type GUID="{CBABCE69-289D-4490-A8FE-F81B1741D1A1}" ReferenceTo="true">TcEventArgumentType</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>ppData</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000018}" PointerTo="1" Const="1">PVOID</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>Clear</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+      </Method>
+      <Method>
+        <Name>GetArgumentTypes</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>pArgumentTypes</Name>
+          <Type GUID="{CBABCE69-289D-4490-A8FE-F81B1741D1A1}" PointerTo="1">TcEventArgumentType</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>GetDataSize</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>cbData</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000008}" ReferenceTo="true">UDINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>GetData</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>pData</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000001}" PointerTo="1">BYTE</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+    </DataType>
+    <DataType>
+      <Name GUID="{6474ED2C-E483-454E-A67D-233E6D337C08}" TcBaseType="true" CName="ITcMessage*">ITcMessage</Name>
+      <BitSize X64="64">32</BitSize>
+      <BaseType GUID="{4A9CB0E9-8969-4B85-B567-605110511200}">ITcEvent</BaseType>
+      <Method>
+        <Name>SetJsonAttribute</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>sJsonAttribute</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000001A}">PCCH</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>GetArguments</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>pipArguments</Name>
+          <Type GUID="{BFC9A87A-F6DE-499A-AC45-F3B1A59315F9}" PointerTo="1">ITcArguments</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>Send</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>timeStamp</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</Type>
+          <BitSize>64</BitSize>
+        </Parameter>
+      </Method>
+    </DataType>
+    <DataType>
+      <Name GUID="{02040001-0000-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyMessageProvider</Name>
+      <BitSize X64="64">32</BitSize>
+      <BaseType GUID="{00000001-0000-0000-E000-000000000064}">ITcUnknown</BaseType>
+      <Method>
+        <Name>GetResultMessage</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>pipMessage</Name>
+          <Type GUID="{6474ED2C-E483-454E-A67D-233E6D337C08}" PointerTo="1">ITcMessage</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+    </DataType>
+    <DataType>
+      <Name GUID="{B57D3F4A-0836-49B0-81C3-BED5F4817EC9}" TcBaseType="true" CName="TcEventSeverity*" RemovableEnumPrefix="TCEVENTSEVERITY_">TcEventSeverity</Name>
+      <BitSize>16</BitSize>
+      <BaseType GUID="{18071995-0000-0000-0000-000000000006}">INT</BaseType>
+      <EnumInfo>
+        <Text><![CDATA[TCEVENTSEVERITY_Verbose]]></Text>
+        <Enum>0</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[TCEVENTSEVERITY_Info]]></Text>
+        <Enum>1</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[TCEVENTSEVERITY_Warning]]></Text>
+        <Enum>2</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[TCEVENTSEVERITY_Error]]></Text>
+        <Enum>3</Enum>
+      </EnumInfo>
+      <EnumInfo>
+        <Text><![CDATA[TCEVENTSEVERITY_Critical]]></Text>
+        <Enum>4</Enum>
+      </EnumInfo>
+      <Properties>
+        <Property>
+          <Name>plcAttribute_qualified_only</Name>
+        </Property>
+        <Property>
+          <Name>plcAttribute_strict</Name>
+        </Property>
+      </Properties>
+      <Hides>
+        <Hide GUID="{777FF09F-0B00-4AF2-BD7C-C1E2CE4A0947}" />
+        <Hide GUID="{EC3C119D-4FEC-4197-96FB-DAE1B7C403FB}" />
+      </Hides>
+    </DataType>
+    <DataType>
+      <Name GUID="{02040001-0000-0000-F000-000000000064}">TcAnalyticsKernelEventClass</Name>
+      <DisplayName TxtId=""><![CDATA[TcAnalyticsKernelEventClass]]></DisplayName>
+      <EventId>
+        <Name Id="#x1">DbgMessage</Name>
+        <DisplayName TxtId=""><![CDATA[Dbg: {0}]]></DisplayName>
+        <Severity>Info</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x1001">Init_NoRouterMemory</Name>
+        <DisplayName TxtId=""><![CDATA[Error during initialization. No router memory available. Check size of router memory.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x1002">Init_Transition_PS_Failed</Name>
+        <DisplayName TxtId=""><![CDATA[Error in Transition PREOP->SAFEOP]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x1003">Init_Transition_SO_Failed</Name>
+        <DisplayName TxtId=""><![CDATA[Error in Transition SAFEOP->OP]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x1004">Init_Transition_SO_Failed_NoTask</Name>
+        <DisplayName TxtId=""><![CDATA[Error in Transition SAFEOP->OP: No Task assigned. Module will not be executed cyclically.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x1005">Init_Transition_OS_Failed</Name>
+        <DisplayName TxtId=""><![CDATA[Error in Transition OP->SAFEOP]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x1006">Init_Transition_SP_Failed</Name>
+        <DisplayName TxtId=""><![CDATA[Error in Transition SAFEOP->PREOP]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x1007">Init_InvalidObjectID</Name>
+        <DisplayName TxtId=""><![CDATA[Error during initialization. Invalid object ID.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x1008">Init_InvalidSymbolName</Name>
+        <DisplayName TxtId=""><![CDATA[Error during initialization. Invalid symbol name.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x1009">Init_InvalidSymbolSize</Name>
+        <DisplayName TxtId=""><![CDATA[Error during initialization. Invalid symbol size.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x100A">Init_InvalidNumBuffers</Name>
+        <DisplayName TxtId=""><![CDATA[Error during initialization. Invalid number of buffers.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x100B">Init_InvalidDataAreaNo</Name>
+        <DisplayName TxtId=""><![CDATA[Error during initialization. Invalid data area number.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x100C">Init_InvalidNumChannels</Name>
+        <DisplayName TxtId=""><![CDATA[Error during initialization. Invalid number of channels.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2001">Config_NoRouterMemory</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. No router memory available. Check size of router memory.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2002">Config_NullPointer</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. A null pointer has been allocated.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2003">Config_InvalidDataType</Name>
+        <DisplayName TxtId=""><![CDATA[The configured data type is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2004">Config_InvalidCountMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured count mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2005">Config_InvalidIntegrationMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured integration mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2006">Config_InvalidHistMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured histogram mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2007">Config_InvalidComparisonOperator</Name>
+        <DisplayName TxtId=""><![CDATA[The configured comparison operator is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2008">Config_InvalidTeachMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured teach mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2009">Config_InvalidLogicOperator</Name>
+        <DisplayName TxtId=""><![CDATA[The configured logic operator is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x200A">Config_InvalidMathOperator</Name>
+        <DisplayName TxtId=""><![CDATA[The configured mathematical operator is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x200B">Config_InvalidStartupBehaviour</Name>
+        <DisplayName TxtId=""><![CDATA[The configured startup behaviour is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x200C">Config_InvalidBounds</Name>
+        <DisplayName TxtId=""><![CDATA[The configured bounds are not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x200D">Config_InvalidNumValues</Name>
+        <DisplayName TxtId=""><![CDATA[The amount of configured values is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x200E">Config_InvalidSampleRate</Name>
+        <DisplayName TxtId=""><![CDATA[The configured sample rate is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x200F">Config_InvalidInterval</Name>
+        <DisplayName TxtId=""><![CDATA[The configured interval is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2010">Config_InvalidInterval_TooShort</Name>
+        <DisplayName TxtId=""><![CDATA[The configured interval is too short.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2011">Config_InvalidNumSubsets</Name>
+        <DisplayName TxtId=""><![CDATA[The amount of configured subsets is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2012">Config_InvalidNumBins</Name>
+        <DisplayName TxtId=""><![CDATA[The amount of configured bins is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2013">Config_InvalidFilePath</Name>
+        <DisplayName TxtId=""><![CDATA[The configured file path is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2014">Config_InvalidSegmentSize</Name>
+        <DisplayName TxtId=""><![CDATA[The configured file segment size is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2015">Config_InvalidTimeout</Name>
+        <DisplayName TxtId=""><![CDATA[The configured timeout is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2016">Config_InvalidBandMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured band mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2017">Config_InvalidLength</Name>
+        <DisplayName TxtId=""><![CDATA[The configured length is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2018">Config_InvalidTimerMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured timer mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2019">Config_InvalidDayOfWeek</Name>
+        <DisplayName TxtId=""><![CDATA[The configured days of week are not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x201A">Config_InvalidThreshold</Name>
+        <DisplayName TxtId=""><![CDATA[The configured threshold is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x201B">Config_InvalidStringCompareMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured string compare mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x201C">Config_InvalidGateMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured gate mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x201D">Config_InvalidSymbolName</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. Invalid symbol name.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x201E">Config_InvalidSymbolSize</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. Invalid symbol size.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x201F">Config_InvalidNumBuffers</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. Invalid number of buffers.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2020">Config_InvalidNumBands</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. Invalid number of bands.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2021">Config_InvalidThresholdOrder</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. Illegal threshold order.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2022">Config_MissingInitialization</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. Missing initialization.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2023">Config_InvalidNumTeachCycles</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. Invalid number of teach cycles.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2024">Config_InvalidParameterValue</Name>
+        <DisplayName TxtId=""><![CDATA[Error during configuration. Invalid parameter value.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2025">Config_InvalidSampleMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured sample mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2026">Config_InvalidInitializationMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured initialization mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2027">Config_InvalidCorrelationMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured correlation mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2028">Config_InvalidWindowMode</Name>
+        <DisplayName TxtId=""><![CDATA[The configured window mode is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x2029">Config_InvalidFunctionType</Name>
+        <DisplayName TxtId=""><![CDATA[The configured function type is not valid.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3001">RTime_NoRouterMemory</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. No router memory available. Check size of router memory.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3002">RTime_NullPointer</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. A null pointer has been allocated.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3003">RTime_InvalidInSize</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid input size.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3004">RTime_InvalidOutSize</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid output size.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3005">RTime_DivByZero</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Division by zero.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3006">RTime_TimestampNull</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Timestamp cannot be null.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3007">RTime_MissingConfig</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Missing configuration.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3008">RTime_InvalidState</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid state.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3009">RTime_CyclicCallerAssigned</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Cyclic caller is assigned. Methods can not be called.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x300A">RTime_OutOfRange</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Out of range.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x300B">RTime_InvalidHeaderSize</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid header size.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x300C">RTime_InvalidFile</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid file.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x300D">RTime_InvalidInterval</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid interval.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x300E">RTime_SymbolAlreadyAssigned</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Symbol already assigned.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x300F">RTime_NoStreamHelperAssigned</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. No stream helper assigned.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3010">RTime_InvalidInputChannel</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid input channel.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3011">RTime_InvalidDataType</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid data type.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3012">RTime_InvalidUnit</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid unit.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3013">RTime_InvalidOutputChannel</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid output channel.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3014">RTime_InvalidParameterSet</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid parameter set.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+      <EventId>
+        <Name Id="#x3015">RTime_InvalidContext</Name>
+        <DisplayName TxtId=""><![CDATA[Error during runtime. Invalid context.]]></DisplayName>
+        <Severity>Error</Severity>
+      </EventId>
+    </DataType>
+    <DataType>
+      <Name GUID="{02040102-0001-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyEdgeCounterOnOff_1Ch</Name>
+      <BitSize X64="64">32</BitSize>
+      <BaseType GUID="{02040010-0001-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyBase</BaseType>
+      <Method>
+        <Name>setChannelValue</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>pDataIn</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000018}">PVOID</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>nSize</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000008}">UDINT</Type>
+          <BitSize>32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>eDataType</Name>
+          <Type GUID="{D158CBD4-0226-41A0-9D2C-C4C3592D0D0C}" Namespace="Tc3_Analytics">E_ALY_DataType</Type>
+          <BitSize>16</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>Call</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>tTimestamp</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</Type>
+          <BitSize>64</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>bNewResult</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000030}" ReferenceTo="true">BOOL</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>bIsOn</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000030}" ReferenceTo="true">BOOL</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>bEdgeOn</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000030}" ReferenceTo="true">BOOL</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>bEdgeOff</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000030}" ReferenceTo="true">BOOL</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>nCountOn</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>nCountOff</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>tLastEvent</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>getResults</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>bIsOn</Name>
+          <Type GUID="{18071995-0000-0000-0000-000000000030}" ReferenceTo="true">BOOL</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>nCountOn</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>nCountOff</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>tLastEvent</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>ConfigureChannel</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>eComparisonOperatorEdgeOn</Name>
+          <Type GUID="{93FFE2DF-52A7-4DCD-8425-50143FA7DFF3}" Namespace="Tc3_Analytics">E_ALY_ComparisonOperator</Type>
+          <BitSize>16</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>fThresholdEdgeOn</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</Type>
+          <BitSize>64</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>eComparisonOperatorEdgeOff</Name>
+          <Type GUID="{93FFE2DF-52A7-4DCD-8425-50143FA7DFF3}" Namespace="Tc3_Analytics">E_ALY_ComparisonOperator</Type>
+          <BitSize>16</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>fThresholdEdgeOff</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</Type>
+          <BitSize>64</BitSize>
+        </Parameter>
+      </Method>
+      <Method>
+        <Name>Configure</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+      </Method>
+      <Method>
+        <Name>setInitial</Name>
+        <ReturnType GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</ReturnType>
+        <ReturnBitSize>32</ReturnBitSize>
+        <Parameter>
+          <Name>nCountOn</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+        <Parameter>
+          <Name>nCountOff</Name>
+          <Type GUID="{18071995-0000-0000-0000-00000000000B}" ReferenceTo="true">ULINT</Type>
+          <BitSize X64="64">32</BitSize>
+        </Parameter>
+      </Method>
+      <Hides>
+        <Hide GUID="{02040102-0000-0000-E000-000000000064}" />
+      </Hides>
+    </DataType>
+  </DataTypes>
+  <Translations>
+    <Text TxtId="TcAnalyticsKernelEventClass">
+      <Text LcId="1031"><![CDATA[TcAnalyticsKernelEventClass]]></Text>
+    </Text>
+    <Text TxtId="Dbg: {0}">
+      <Text LcId="1031"><![CDATA[Dbg: {0}]]></Text>
+    </Text>
+    <Text TxtId="Error during initialization. No router memory available. Check size of router memory.">
+      <Text LcId="1031"><![CDATA[Fehler während der Initialisierung. Kein Routerspeicher verfügbar. Überprüfen sie die Größe des Routerspeichers.]]></Text>
+    </Text>
+    <Text TxtId="Error in Transition PREOP-&gt;SAFEOP">
+      <Text LcId="1031"><![CDATA[Fehler in der Transition PREOP->SAFEOP]]></Text>
+    </Text>
+    <Text TxtId="Error in Transition SAFEOP-&gt;OP">
+      <Text LcId="1031"><![CDATA[Fehler in der Transition SAFEOP->OP]]></Text>
+    </Text>
+    <Text TxtId="Error in Transition SAFEOP-&gt;OP: No Task assigned. Module will not be executed cyclically.">
+      <Text LcId="1031"><![CDATA[Fehler in der Transition SAFEOP->OP: Keine Task zugewiesen. Modul wird nicht zyklisch aufgerufen.]]></Text>
+    </Text>
+    <Text TxtId="Error in Transition OP-&gt;SAFEOP">
+      <Text LcId="1031"><![CDATA[Fehler in der Transition OP->SAFEOP]]></Text>
+    </Text>
+    <Text TxtId="Error in Transition SAFEOP-&gt;PREOP">
+      <Text LcId="1031"><![CDATA[Fehler in der Transition SAFEOP->PREOP]]></Text>
+    </Text>
+    <Text TxtId="Error during initialization. Invalid object ID.">
+      <Text LcId="1031"><![CDATA[Fehler während der Initialisierung. Objekt ID ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="Error during initialization. Invalid symbol name.">
+      <Text LcId="1031"><![CDATA[Fehler während der Initialisierung. Symbolname ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="Error during initialization. Invalid symbol size.">
+      <Text LcId="1031"><![CDATA[Fehler während der Initialisierung. Symbolgröße ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="Error during initialization. Invalid number of buffers.">
+      <Text LcId="1031"><![CDATA[Fehler während der Initialisierung. Ungülte Anzahl an Puffern.]]></Text>
+    </Text>
+    <Text TxtId="Error during initialization. Invalid data area number.">
+      <Text LcId="1031"><![CDATA[Fehler während der Initialisierung. Ungülte Nummer der Data Area.]]></Text>
+    </Text>
+    <Text TxtId="Error during initialization. Invalid number of channels.">
+      <Text LcId="1031"><![CDATA[Fehler während der Initialisierung. Ungülte Anzahl an Kanälen.]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. No router memory available. Check size of router memory.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Kein Routerspeicher verfügbar. Überprüfen sie die Größe des Routerspeichers.]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. A null pointer has been allocated.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Ein Null-Zeiger wurde zugewiesen.]]></Text>
+    </Text>
+    <Text TxtId="The configured data type is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Datentyp ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured count mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Zählmodus ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured integration mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Integrationsmodus ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured histogram mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Modus für das Histogramm ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured comparison operator is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Vergleichsoperator ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured teach mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Lernmodus ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured logic operator is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte logische Operator ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured mathematical operator is not valid.">
+      <Text LcId="1031"><![CDATA[Die konfigurierte mathematische Operator ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured startup behaviour is not valid.">
+      <Text LcId="1031"><![CDATA[Das konfigurierte Startverhalten ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured bounds are not valid.">
+      <Text LcId="1031"><![CDATA[Die konfigurierten Grenzen sind ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The amount of configured values is not valid.">
+      <Text LcId="1031"><![CDATA[Die konfigurierte Anzahl an Werten ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured sample rate is not valid.">
+      <Text LcId="1031"><![CDATA[Die konfigurierte Abtastrate ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured interval is not valid.">
+      <Text LcId="1031"><![CDATA[Das konfigurierte Intervall ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured interval is too short.">
+      <Text LcId="1031"><![CDATA[Das konfigurierte Intervall ist zu kurz.]]></Text>
+    </Text>
+    <Text TxtId="The amount of configured subsets is not valid.">
+      <Text LcId="1031"><![CDATA[Die Anzal konfigurierter Subelemente ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The amount of configured bins is not valid.">
+      <Text LcId="1031"><![CDATA[Die Anzal konfigurierter Bins ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured file path is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Dateipfad ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured file segment size is not valid.">
+      <Text LcId="1031"><![CDATA[Die konfigurierte Datei-Segmentgröße ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured timeout is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Timeout ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured band mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Bandmodus ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured length is not valid.">
+      <Text LcId="1031"><![CDATA[Die konfigurierte Länge ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured timer mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Timer-Modus ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured days of week are not valid.">
+      <Text LcId="1031"><![CDATA[Die konfigurierten Wochentage sind ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured threshold is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Schwellwert ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured string compare mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Modus zum Stringvergleich ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured gate mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Tor Modus ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. Invalid symbol name.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Symbolname ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. Invalid symbol size.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Symbolgröße ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. Invalid number of buffers.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Ungülte Anzahl an Puffern.]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. Invalid number of bands.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Ungülte Anzahl an Bändern]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. Illegal threshold order.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Ungültige Reihenfolge der Grenzwerte.]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. Missing initialization.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Fehlende Initialisierung.]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. Invalid number of teach cycles.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Ungültige Anzahl an Trainingszyklen.]]></Text>
+    </Text>
+    <Text TxtId="Error during configuration. Invalid parameter value.">
+      <Text LcId="1031"><![CDATA[Fehler während der Konfiguration. Ungültige Parameterwerte.]]></Text>
+    </Text>
+    <Text TxtId="The configured sample mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Samplemodus ist nicht ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured initialization mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Initialisierungsmodus ist nicht ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured correlation mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Korrelationsmodus ist nicht ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured window mode is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Fenstermodus ist nicht ungültig.]]></Text>
+    </Text>
+    <Text TxtId="The configured function type is not valid.">
+      <Text LcId="1031"><![CDATA[Der konfigurierte Funktionstyp ist nicht ungültig.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. No router memory available. Check size of router memory.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Kein Routerspeicher verfügbar. Überprüfen sie die Größe des Routerspeichers.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. A null pointer has been allocated.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ein Null-Zeiger wurde zugewiesen.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid input size.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Eingangsgröße ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid output size.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ausgangsgröße ist ungültig.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Division by zero.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Division durch null.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Timestamp cannot be null.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Der Zeitstempel kann nicht null sein.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Missing configuration.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Fehlende Konfiguration.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid state.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ungültiger Zustand.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Cyclic caller is assigned. Methods can not be called.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Task für zyklische Abarbeitung zugewiesen. Methoden dürfen nicht aufgerufen werden.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Out of range.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Wert außerhalb der Grenzen.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid header size.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ungültige größe des Datei-Headers.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid file.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ungültige Datei.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid interval.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ungültiges Intervall.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Symbol already assigned.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Das Symbol wurde bereits zugewiesen.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. No stream helper assigned.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Kein stream helper zugewiesen.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid input channel.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ungültiger Eingangskanal.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid data type.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ungültiger Datentyp.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid unit.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ungültiger physikalische Einheit.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid output channel.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ungültiger Ausgangskanal.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid parameter set.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ein ungültiger Parameter wurde gesetzt.]]></Text>
+    </Text>
+    <Text TxtId="Error during runtime. Invalid context.">
+      <Text LcId="1031"><![CDATA[Fehler während der Laufzeit. Ungültiger Kontext.]]></Text>
+    </Text>
+  </Translations>
+  <System>
+    <Tasks />
+    <Modules>
+      <Module GUID="{02040101-0000-0000-F000-000000000064}" Group="TcAnalyticsKernel Base">
+        <Name>CTcAlyEdgeCounter_1Ch</Name>
+        <DisplayName><![CDATA[Edge Counter 1Ch]]></DisplayName>
+        <CLSID ClassFactory="TcAnalyticsKernel">{02040101-0000-0000-F000-000000000064}</CLSID>
+        <Info>
+          <ImageData>424db604000000000000b6030000280000001000000010000000010008000000000000000000c30e0000c30e0000e0000000e0000000000000ff330000ff660000ff990000ffcc0000ffff0000ff003300ff333300ff663300ff993300ffcc3300ffff3300ff006600ff336600ff666600ff996600ffcc6600ffff6600ff009900ff339900ff669900ff999900ffcc9900ffff9900ff00cc00ff33cc00ff66cc00ff99cc00ffcccc00ffffcc00ff00ff00ff33ff00ff66ff00ff99ff00ffccff00ffffff00ff000033ff330033ff660033ff990033ffcc0033ffff0033ff003333ff333333ff663333ff993333ffcc3333ffff3333ff006633ff336633ff666633ff996633ffcc6633ffff6633ff009933ff339933ff669933ff999933ffcc9933ffff9933ff00cc33ff33cc33ff66cc33ff99cc33ffcccc33ffffcc33ff00ff33ff33ff33ff66ff33ff99ff33ffccff33ffffff33ff000066ff330066ff660066ff990066ffcc0066ffff0066ff003366ff333366ff663366ff993366ffcc3366ffff3366ff006666ff336666ff666666ff996666ffcc6666ffff6666ff009966ff339966ff669966ff999966ffcc9966ffff9966ff00cc66ff33cc66ff66cc66ff99cc66ffcccc66ffffcc66ff00ff66ff33ff66ff66ff66ff99ff66ffccff66ffffff66ff000099ff330099ff660099ff990099ffcc0099ffff0099ff003399ff333399ff663399ff993399ffcc3399ffff3399ff006699ff336699ff666699ff996699ffcc6699ffff6699ff009999ff339999ff669999ff999999ffcc9999ffff9999ff00cc99ff33cc99ff66cc99ff99cc99ffcccc99ffffcc99ff00ff99ff33ff99ff66ff99ff99ff99ffccff99ffffff99ff0000ccff3300ccff6600ccff9900ccffcc00ccffff00ccff0033ccff3333ccff6633ccff9933ccffcc33ccffff33ccff0066ccff3366ccff6666ccff9966ccffcc66ccffff66ccff0099ccff3399ccff6699ccff9999ccffcc99ccffff99ccff00ccccff33ccccff66ccccff99ccccffccccccffffccccff00ffccff33ffccff66ffccff99ffccffccffccffffffccff0000ffff3300ffff6600ffff9900ffffcc00ffffff00ffff0033ffff3333ffff6633ffff9933ffffcc33ffffff33ffff0066ffff3366ffff6666ffff9966ffffcc66ffffff66ffff0099ffff3399ffff6699ffff9999ffffcc99ffffff99ffff00ccffff33ccffff66ccffff99ccffffccccffffffccffff00ffffff33ffffff66ffffff99ffffffccffffffffffffffc0c0c0ff808080ff000080ff008000ff800000ff008080ff800080ff808000ffb9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9d7d7d7d7d7d7d7d7d7b9b9b9b9b9b9b9d72b2b2b2b2b2b2bd7b9b9b9b9b9b9b9d72b2b2b2b2b2b2bd7b9b9b9b9b9b9b9d7d7d7d7d7d72b2bd7b9b9b9b9b9b9b9b9b9b9d7d7d72b2bd7d7d7b9b9b9b9b9b9b9b9d7000000000000d7b9b9b9b9b9b9b9b9d7d700000000d7d7b9b9b9b9b9b9b9b9b9d7d70000d7d7b9b9b9b9b9b9b9b9b9b9b9d72b2bd7b9b9b9b9b9b9b9b9b9b9b9b9d72b2bd7b9b9b9b9b9b9b9b9b9b9b9b9d72b2bd7d7d7d7d7d7b9b9b9b9b9b9b9d72b2b2b2b2b2b2bd7b9b9b9b9b9b9b9d72b2b2b2b2b2b2bd7b9b9b9b9b9b9b9d7d7d7d7d7d7d7d7d7b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9b9</ImageData>
+        </Info>
+        <Licenses>
+          <License>
+            <LicenseId>{10032AB1-C6C6-40E5-890B-594BF889C5A3}</LicenseId>
+          </License>
+        </Licenses>
+        <InitSequence>PSO</InitSequence>
+        <Contexts>
+          <Context>
+            <Id>0</Id>
+          </Context>
+        </Contexts>
+        <Interfaces>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{02040101-0001-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyEdgeCounter_1Ch</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{00000012-0000-0000-E000-000000000064}">ITComObject</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{03000010-0000-0000-E000-000000000064}">ITcCyclic</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{03000012-0000-0000-E000-000000000064}">ITcADI</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{03000018-0000-0000-E000-000000000064}">ITcWatchSource</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{02040001-0000-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyMessageProvider</Type>
+          </Interface>
+        </Interfaces>
+        <Parameters>
+          <Parameter OnlineParameter="true" DisableCodeGeneration="true" ReadOnly="true">
+            <Name>IsConfigured</Name>
+            <DisplayName><![CDATA[Is Configured]]></DisplayName>
+            <Comment><![CDATA[Module is configured]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040011</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>CyclicCaller</Name>
+            <DisplayName><![CDATA[Cyclic Caller]]></DisplayName>
+            <Comment><![CDATA[Use cyclic caller]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>TRUE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040001</PTCID>
+          </Parameter>
+          <Parameter HideParameter="true" DisableCodeGeneration="true">
+            <Name>Persistent</Name>
+            <DisplayName><![CDATA[Persistent Results]]></DisplayName>
+            <Comment><![CDATA[Using persistent struct]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Property</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>PLC</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040002</PTCID>
+          </Parameter>
+          <Parameter HideParameter="true" DisableCodeGeneration="true">
+            <Name>TraceLevel</Name>
+            <DisplayName><![CDATA[Trace Level]]></DisplayName>
+            <Comment><![CDATA[Configure minimum severity messages should be send to event logger]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{B57D3F4A-0836-49B0-81C3-BED5F4817EC9}">TcEventSeverity</BaseType>
+            <Default>
+              <EnumText>TCEVENTSEVERITY_Error</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>EventSeverity</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040010</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>DataType</Name>
+            <DisplayName><![CDATA[Data Type]]></DisplayName>
+            <Comment><![CDATA[Configured data type]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{D158CBD4-0226-41A0-9D2C-C4C3592D0D0C}" Namespace="Tc3_Analytics">E_ALY_DataType</BaseType>
+            <Default>
+              <EnumText>LREAL_</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>DataType</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>DataIn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040101</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ComparisonOperatorEdge</Name>
+            <DisplayName><![CDATA[Operator Edge]]></DisplayName>
+            <Comment><![CDATA[Configured operator for counting (edge)]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{93FFE2DF-52A7-4DCD-8425-50143FA7DFF3}" Namespace="Tc3_Analytics">E_ALY_ComparisonOperator</BaseType>
+            <Default>
+              <EnumText>GreaterThanOrEqualTo</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>OperatorEdge</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ThresholdEdge</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040111</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ThresholdEdge</Name>
+            <DisplayName><![CDATA[Threshold Edge]]></DisplayName>
+            <Comment><![CDATA[Configured threshold for counting (edge)]]></Comment>
+            <BitSize>64</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
+            <Default>
+              <Value>1.0</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Threshold</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ComparisonOperatorEdge</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040121</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>Tolerance</Name>
+            <DisplayName><![CDATA[Tolerance]]></DisplayName>
+            <Comment><![CDATA[Tolerance for Equals and NotEquals opration]]></Comment>
+            <BitSize>64</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
+            <Default>
+              <Value>0.0</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Optional</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Value</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040007</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>NegIn</Name>
+            <DisplayName><![CDATA[Negate Input]]></DisplayName>
+            <Comment><![CDATA[Negate Input]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Negation</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>DataIn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040105</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>NegEnableExec</Name>
+            <DisplayName><![CDATA[Negate Enable Execution]]></DisplayName>
+            <Comment><![CDATA[Negate Enable Execution]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Optional</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Negation</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>bEnableExecution</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040012</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>NegReset</Name>
+            <DisplayName><![CDATA[Negate Reset]]></DisplayName>
+            <Comment><![CDATA[Negate Reset]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Optional</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Negation</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>bReset</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040013</PTCID>
+          </Parameter>
+        </Parameters>
+        <DataAreas>
+          <DataArea DisableCodeGeneration="true">
+            <AreaNo AreaType="InputDst">0</AreaNo>
+            <Name>Inputs</Name>
+            <ContextId>0</ContextId>
+            <ByteSize>24</ByteSize>
+            <Symbol>
+              <Name>DataIn</Name>
+              <DisplayName><![CDATA[Input]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000A}">LWORD</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Input</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>DataType</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000000</PTCID>
+              <BitOffs>0</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tTimestamp</Name>
+              <DisplayName><![CDATA[Timestamp]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Hide</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timestamp</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000008</PTCID>
+              <BitOffs>64</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bEnableExecution</Name>
+              <DisplayName><![CDATA[Enable Execution]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Description</Name>
+                  <Value>Datatype: BOOL.</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000010</PTCID>
+              <BitOffs>128</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bReset</Name>
+              <DisplayName><![CDATA[Reset]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Description</Name>
+                  <Value>Datatype: BOOL.</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000011</PTCID>
+              <BitOffs>136</BitOffs>
+            </Symbol>
+            <Xml>
+              <StartupList>
+                <List />
+              </StartupList>
+            </Xml>
+          </DataArea>
+          <DataArea DisableCodeGeneration="true">
+            <AreaNo AreaType="OutputSrc">1</AreaNo>
+            <Name>Outputs</Name>
+            <ContextId>0</ContextId>
+            <ByteSize>24</ByteSize>
+            <Symbol>
+              <Name>bNewResult</Name>
+              <DisplayName><![CDATA[New Result]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>NewResult</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000000</PTCID>
+              <BitOffs>0</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bEdge</Name>
+              <DisplayName><![CDATA[Edge]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>Optional</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000001</PTCID>
+              <BitOffs>8</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>nCount</Name>
+              <DisplayName><![CDATA[Count]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Count</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000008</PTCID>
+              <BitOffs>64</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tLastEvent</Name>
+              <DisplayName><![CDATA[Last Event]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timestamp</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Eventtype</Name>
+                  <Value>EdgeCounter</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000010</PTCID>
+              <BitOffs>128</BitOffs>
+            </Symbol>
+          </DataArea>
+        </DataAreas>
+        <InterfacePointers>
+          <InterfacePointer DisableCodeGeneration="true">
+            <PTCID>#x03002060</PTCID>
+            <Name>CyclicCaller</Name>
+            <Type GUID="{0300001E-0000-0000-E000-000000000064}">ITcCyclicCaller</Type>
+          </InterfacePointer>
+        </InterfacePointers>
+        <DataPointers>
+          <DataPointer>
+            <PTCID>#x02041001</PTCID>
+            <Name>DataIn</Name>
+            <Type>LWORD</Type>
+          </DataPointer>
+          <DataPointer>
+            <PTCID>#x02041010</PTCID>
+            <Name>Timestamp</Name>
+            <Type>ULINT</Type>
+          </DataPointer>
+          <DataPointer>
+            <PTCID>#x02041011</PTCID>
+            <Name>EnableExecution</Name>
+            <Type>BOOL</Type>
+          </DataPointer>
+          <DataPointer>
+            <PTCID>#x02041012</PTCID>
+            <Name>Reset</Name>
+            <Type>BOOL</Type>
+          </DataPointer>
+        </DataPointers>
+        <Deployment>
+          <FileEntry TargetPlatform="TwinCAT RT (x86)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT RT (x86)\%CLASSFACTORYNAME%.sys</SourceFile>
+            <DestinationFile>%TC_DRIVERAUTOINSTALLPATH%%CLASSFACTORYNAME%.sys</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT UM (x86)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT UM (x86)\%CLASSFACTORYNAME%W32.dll</SourceFile>
+            <DestinationFile>%TC_SYSSRVEXEPATH%%CLASSFACTORYNAME%W32.dll</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT RT (x64)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT RT (x64)\%CLASSFACTORYNAME%.sys</SourceFile>
+            <DestinationFile>%TC_DRIVERAUTOINSTALLPATH%%CLASSFACTORYNAME%.sys</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT UM (x64)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT UM (x64)\%CLASSFACTORYNAME%W32.dll</SourceFile>
+            <DestinationFile>%TC_SYSSRVEXEPATH%%CLASSFACTORYNAME%W32.dll</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT OS (x64)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT OS (x64)\%CLASSFACTORYNAME%.tmx</SourceFile>
+            <DestinationFile>%TC_DRIVERAUTOLOADPATH%%CLASSFACTORYNAME%.tmx</DestinationFile>
+          </FileEntry>
+        </Deployment>
+        <EventClasses>
+          <EventClass>
+            <Type GUID="{02040001-0000-0000-F000-000000000064}">TcAnalyticsKernelEventClass</Type>
+          </EventClass>
+        </EventClasses>
+        <Properties>
+          <Property>
+            <Name>Description</Name>
+            <Value>The Edge Counter 1Ch counts the amount of raised events. An event is raised when the signal of the input channel passes the configured edge at a specific threshold. Optional a boolean signal for Enable Execution can be selected, so that the algorithm is just active if the value of the selected signal is TRUE.</Value>
+          </Property>
+          <Property>
+            <Name>AdapterExtensionProgId</Name>
+            <Value>TwinCAT.AnalyticsBaseModuleAdapter</Value>
+          </Property>
+          <Property>
+            <Name>CodeGenerationId</Name>
+            <Value>35CFD307-6B82-4936-91E9-10000000000C</Value>
+          </Property>
+          <Property>
+            <Name>Image256x256</Name>
+            <Value>89504E470D0A1A0A0000000D49484452000001000000010008060000005C72A866000000017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048597300000EC200000EC20115284A800000001974455874536F667477617265005061696E742E4E45542076332E352E343E8DCC760000079949444154785EEDDDDD8F5C751D06F0FE27B6DDB2ABAB05444DD4C400A6AF160A6C5B5E24062C7A43BCD270515E94A00988268269B65A300182177843C53F70CC313B04F1F9EECEEE76CE99FDFAF924CFCDCE9973B1F37B9E4C339BE93100000000000000000000000000000000000000000000000000000000000000000000E67EF3DAAF673FF8DEF7676B5F392E4BCEC6DAA9D9C573E766B7B6B7673BBF7E98CEE9CDCD785065F939F3D0C34680E96CAE6FC48329E3C50830899FFCF8D9782065FC6CDFBC690418D7A9E327E26194F173FECC5903C0B8D2419469B27E72CD0030AE7410659A0C9F0CECBC2C308E7410659A5C3A7FC10030AE7410659ABC7FFBB601605CE920CAF819FE2868E72581F1A4C328E3C65B7F26930EA42C3F0FDC7BDFECDAD695D9471F7CA8FC4C271DCE2A8F5CB8E8B04227A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034F2C4E5CBB1E8552E9DBF6000A0839FBFF0422CF96EB9FF1BA70D001C750729FF3CB7B6B78D001C558729FF3C46008EA0BB51FE798C001C2177B3FCF3180138029651FE798C00ACB065967F1E23002BE8FA73CFC7C22E23460056C8B34F3F138BBACCBCFDD65B4600A63645F9E7310230A129CB3F8F118009AC42F9E7310230A2552AFF3C460046B08AE59FC708C012AD72F9E73102B004872DFFA9E327E2CF9711230077D15357AFC6A22D9A7B4E9C9CFDEE8DDFC6C79615230077C1D6E5C762C116CD50FE3B9F7EFA9F32A6C7AB7CEBFE6FC69FEF27AFBDFC8A1180833A6CF937D64ECDFEF5D9679F97305D5365F84EC0A1C0E9B1FDC408C0013C79E5706FFB87F2EFDCEA73E9BA2AF32F05FDFD9B6FC6C7F7132300FBF0C7B7FF108BB46852F907E9DA2A5FFC56E0E1DFF3E99AFDE4DD3FBD63046011A737376389164955FE41BABECA97BF16FCB023307C0AB1732B6037A9408B64B7F20FD273AAA4FF17E0B023F0C6EBAF1B01D84B2ACF5ED9ABFC83F4BC2A690006871981ADC71E3700B097549EDDB248F907E9B955AA01181C74042E9C3D6700602F5FDFF86A2C50CAA2E51FA4E757D96D00060719819FFDF4BA0180BD2CFAD1DB7ECA3F48F7A8B2D7000CF63B027FFFF86303008BB8FAC4562CD13CC3BB849D4B1796EE53659101182C3A023F7CF041E587FD78E5C68DD9FAC9B5FF29D323177F74A0327DF93EBB65D10118FCF5D65FE23DE6F9EEB7BFA3FC7050FFF8E493D99FDF7977F6B7F7DE3B54915239ABEC6700E61E7FF4D1FFBAC7D7EE599FBDF4CB5F293FAC822F9673AF1C64008015968A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C0034938A5EC5004033A9E8550C00A3FBE8830F67D7B6AECC1EB8F7BE782865BC18004675E9FC857810659A18004673F1DCB9780865BA180046F1FEEDDBF100CAB431008CC25BFFD58C0160141B6BA7E2019469630018C5FAC9B5780065DA3C7DED9A0160F9CE9F391B0FA04C9B576FBC6C0058BEED9B37E3019469B3F3F2C0F29D79E8E17808659AFCE2C5170D00E33202AB91EBCF3DAFFC4CE3D6F6F66CF8A3209F0C8C9BCDF58DD9334F3E35FBE79D3BCA0F000000000000000000000000000000000000000000000000000000000000000000FCDF3B76ECDF3078CC118B9B21C10000000049454E44AE426082</Value>
+          </Property>
+          <Property>
+            <Name>Title</Name>
+            <Value>Edge Counter 1Ch</Value>
+          </Property>
+          <Property>
+            <Name>NetworkId</Name>
+            <Value>1</Value>
+          </Property>
+          <Property>
+            <Name>Enabled</Name>
+            <Value>True</Value>
+          </Property>
+        </Properties>
+        <InstanceName>CTcAlyEdgeCounter_1Ch</InstanceName>
+        <OTCID>#x01010010</OTCID>
+        <ParameterValues>
+          <Value>
+            <Name>IsConfigured</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>CyclicCaller</Name>
+            <EnumText>TRUE</EnumText>
+          </Value>
+          <Value>
+            <Name>Persistent</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>TraceLevel</Name>
+            <EnumText>TCEVENTSEVERITY_Error</EnumText>
+          </Value>
+          <Value>
+            <Name>DataType</Name>
+            <EnumText>LREAL_</EnumText>
+          </Value>
+          <Value>
+            <Name>ComparisonOperatorEdge</Name>
+            <EnumText>GreaterThanOrEqualTo</EnumText>
+          </Value>
+          <Value>
+            <Name>ThresholdEdge</Name>
+            <Value>1</Value>
+          </Value>
+          <Value>
+            <Name>Tolerance</Name>
+            <Value>0</Value>
+          </Value>
+          <Value>
+            <Name>NegIn</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>NegEnableExec</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>NegReset</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+        </ParameterValues>
+        <InterfacePointerValues>
+          <Value>
+            <Name>CyclicCaller</Name>
+            <OTCID>#x00000000</OTCID>
+          </Value>
+        </InterfacePointerValues>
+      </Module>
+      <Module GUID="{02040102-0000-0000-F000-000000000064}" Group="TcAnalyticsKernel Base">
+        <Name>CTcAlyEdgeCounterOnOff_1Ch</Name>
+        <DisplayName><![CDATA[Edge Counter OnOff 1Ch]]></DisplayName>
+        <CLSID ClassFactory="TcAnalyticsKernel">{02040102-0000-0000-F000-000000000064}</CLSID>
+        <Info>
+          <ImageData>424dc60000000000000046000000280000001000000010000000010004000000000000000000c30e0000c30e00000400000004000000ff00ffffffffffff333333ff000000ff0000000000000000011111000011111001222100001222100111210000121110000121000012100000012100001210000111211101131100013333311133311001133311133333100011311011121110000121000012100000012100001210000001211111121000000122222222100000011111111110000000000000000000</ImageData>
+        </Info>
+        <Licenses>
+          <License>
+            <LicenseId>{10032AB1-C6C6-40E5-890B-594BF889C5A3}</LicenseId>
+          </License>
+        </Licenses>
+        <InitSequence>PSO</InitSequence>
+        <Contexts>
+          <Context>
+            <Id>0</Id>
+          </Context>
+        </Contexts>
+        <Interfaces>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{02040102-0001-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyEdgeCounterOnOff_1Ch</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{00000012-0000-0000-E000-000000000064}">ITComObject</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{03000010-0000-0000-E000-000000000064}">ITcCyclic</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{03000012-0000-0000-E000-000000000064}">ITcADI</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{03000018-0000-0000-E000-000000000064}">ITcWatchSource</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{02040001-0000-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyMessageProvider</Type>
+          </Interface>
+        </Interfaces>
+        <Parameters>
+          <Parameter OnlineParameter="true" DisableCodeGeneration="true" ReadOnly="true">
+            <Name>IsConfigured</Name>
+            <DisplayName><![CDATA[Is Configured]]></DisplayName>
+            <Comment><![CDATA[Module is configured]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040011</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>CyclicCaller</Name>
+            <DisplayName><![CDATA[Cyclic Caller]]></DisplayName>
+            <Comment><![CDATA[Use cyclic caller]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>TRUE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040001</PTCID>
+          </Parameter>
+          <Parameter HideParameter="true" DisableCodeGeneration="true">
+            <Name>Persistent</Name>
+            <DisplayName><![CDATA[Persistent Results]]></DisplayName>
+            <Comment><![CDATA[Using persistent struct]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Property</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>PLC</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040002</PTCID>
+          </Parameter>
+          <Parameter HideParameter="true" DisableCodeGeneration="true">
+            <Name>TraceLevel</Name>
+            <DisplayName><![CDATA[Trace Level]]></DisplayName>
+            <Comment><![CDATA[Configure minimum severity messages should be send to event logger]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{B57D3F4A-0836-49B0-81C3-BED5F4817EC9}">TcEventSeverity</BaseType>
+            <Default>
+              <EnumText>TCEVENTSEVERITY_Error</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>EventSeverity</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040010</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>DataType</Name>
+            <DisplayName><![CDATA[Data Type]]></DisplayName>
+            <Comment><![CDATA[Configured data type]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{D158CBD4-0226-41A0-9D2C-C4C3592D0D0C}" Namespace="Tc3_Analytics">E_ALY_DataType</BaseType>
+            <Default>
+              <EnumText>LREAL_</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>DataType</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>DataIn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040101</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ComparisonOperatorEdgeOn</Name>
+            <DisplayName><![CDATA[Operator Edge On]]></DisplayName>
+            <Comment><![CDATA[Configured operator for "on" condition (edge)]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{93FFE2DF-52A7-4DCD-8425-50143FA7DFF3}" Namespace="Tc3_Analytics">E_ALY_ComparisonOperator</BaseType>
+            <Default>
+              <EnumText>GreaterThanOrEqualTo</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>OperatorEdge</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ThresholdEdgeOn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040111</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ThresholdEdgeOn</Name>
+            <DisplayName><![CDATA[Threshold Edge On]]></DisplayName>
+            <Comment><![CDATA[Configured threshold for "on" condition (edge)]]></Comment>
+            <BitSize>64</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
+            <Default>
+              <Value>1.0</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Threshold</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ComparisonOperatorEdgeOn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040121</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ComparisonOperatorEdgeOff</Name>
+            <DisplayName><![CDATA[Operator Edge Off]]></DisplayName>
+            <Comment><![CDATA[Configured operator for "off" condition (edge)]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{93FFE2DF-52A7-4DCD-8425-50143FA7DFF3}" Namespace="Tc3_Analytics">E_ALY_ComparisonOperator</BaseType>
+            <Default>
+              <EnumText>LessThan</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>OperatorEdge</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ThresholdEdgeOff</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040112</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ThresholdEdgeOff</Name>
+            <DisplayName><![CDATA[Threshold Edge Off]]></DisplayName>
+            <Comment><![CDATA[Configured threshold for "off" condition (edge)]]></Comment>
+            <BitSize>64</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
+            <Default>
+              <Value>1.0</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Threshold</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ComparisonOperatorEdgeOff</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040122</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>Tolerance</Name>
+            <DisplayName><![CDATA[Tolerance]]></DisplayName>
+            <Comment><![CDATA[Tolerance for Equals and NotEquals opration]]></Comment>
+            <BitSize>64</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
+            <Default>
+              <Value>0.0</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Optional</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Value</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040007</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>NegIn</Name>
+            <DisplayName><![CDATA[Negate Input]]></DisplayName>
+            <Comment><![CDATA[Negate Input]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Negation</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>DataIn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040105</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>NegEnableExec</Name>
+            <DisplayName><![CDATA[Negate Enable Execution]]></DisplayName>
+            <Comment><![CDATA[Negate Enable Execution]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Optional</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Negation</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>bEnableExecution</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040012</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>NegReset</Name>
+            <DisplayName><![CDATA[Negate Reset]]></DisplayName>
+            <Comment><![CDATA[Negate Reset]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Optional</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Negation</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>bReset</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040013</PTCID>
+          </Parameter>
+        </Parameters>
+        <DataAreas>
+          <DataArea DisableCodeGeneration="true">
+            <AreaNo AreaType="InputDst">0</AreaNo>
+            <Name>Inputs</Name>
+            <ContextId>0</ContextId>
+            <ByteSize>24</ByteSize>
+            <Symbol>
+              <Name>DataIn</Name>
+              <DisplayName><![CDATA[Input]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000A}">LWORD</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Input</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>DataType</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000000</PTCID>
+              <BitOffs>0</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tTimestamp</Name>
+              <DisplayName><![CDATA[Timestamp]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Hide</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timestamp</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000008</PTCID>
+              <BitOffs>64</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bEnableExecution</Name>
+              <DisplayName><![CDATA[Enable Execution]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Description</Name>
+                  <Value>Datatype: BOOL.</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000010</PTCID>
+              <BitOffs>128</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bReset</Name>
+              <DisplayName><![CDATA[Reset]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Description</Name>
+                  <Value>Datatype: BOOL.</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000011</PTCID>
+              <BitOffs>136</BitOffs>
+            </Symbol>
+            <Xml>
+              <StartupList>
+                <List />
+              </StartupList>
+            </Xml>
+          </DataArea>
+          <DataArea DisableCodeGeneration="true">
+            <AreaNo AreaType="OutputSrc">1</AreaNo>
+            <Name>Outputs</Name>
+            <ContextId>0</ContextId>
+            <ByteSize>32</ByteSize>
+            <Symbol>
+              <Name>bNewResult</Name>
+              <DisplayName><![CDATA[New Result]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>NewResult</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000000</PTCID>
+              <BitOffs>0</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bIsOn</Name>
+              <DisplayName><![CDATA[Is On]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000001</PTCID>
+              <BitOffs>8</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bEdgeOn</Name>
+              <DisplayName><![CDATA[Edge On]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>Optional</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000002</PTCID>
+              <BitOffs>16</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bEdgeOff</Name>
+              <DisplayName><![CDATA[Edge Off]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>Optional</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000003</PTCID>
+              <BitOffs>24</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>nCountOn</Name>
+              <DisplayName><![CDATA[Count On]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Count</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000008</PTCID>
+              <BitOffs>64</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>nCountOff</Name>
+              <DisplayName><![CDATA[Count Off]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Count</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000010</PTCID>
+              <BitOffs>128</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tLastEvent</Name>
+              <DisplayName><![CDATA[Last Event]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timestamp</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Eventtype</Name>
+                  <Value>EdgeCounterOnOff</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000018</PTCID>
+              <BitOffs>192</BitOffs>
+            </Symbol>
+          </DataArea>
+        </DataAreas>
+        <InterfacePointers>
+          <InterfacePointer DisableCodeGeneration="true">
+            <PTCID>#x03002060</PTCID>
+            <Name>CyclicCaller</Name>
+            <Type GUID="{0300001E-0000-0000-E000-000000000064}">ITcCyclicCaller</Type>
+          </InterfacePointer>
+        </InterfacePointers>
+        <DataPointers>
+          <DataPointer>
+            <PTCID>#x02041001</PTCID>
+            <Name>DataIn</Name>
+            <Type>LWORD</Type>
+          </DataPointer>
+          <DataPointer>
+            <PTCID>#x02041010</PTCID>
+            <Name>Timestamp</Name>
+            <Type>ULINT</Type>
+          </DataPointer>
+          <DataPointer>
+            <PTCID>#x02041011</PTCID>
+            <Name>EnableExecution</Name>
+            <Type>BOOL</Type>
+          </DataPointer>
+          <DataPointer>
+            <PTCID>#x02041012</PTCID>
+            <Name>Reset</Name>
+            <Type>BOOL</Type>
+          </DataPointer>
+        </DataPointers>
+        <Deployment>
+          <FileEntry TargetPlatform="TwinCAT RT (x86)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT RT (x86)\%CLASSFACTORYNAME%.sys</SourceFile>
+            <DestinationFile>%TC_DRIVERAUTOINSTALLPATH%%CLASSFACTORYNAME%.sys</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT UM (x86)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT UM (x86)\%CLASSFACTORYNAME%W32.dll</SourceFile>
+            <DestinationFile>%TC_SYSSRVEXEPATH%%CLASSFACTORYNAME%W32.dll</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT RT (x64)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT RT (x64)\%CLASSFACTORYNAME%.sys</SourceFile>
+            <DestinationFile>%TC_DRIVERAUTOINSTALLPATH%%CLASSFACTORYNAME%.sys</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT UM (x64)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT UM (x64)\%CLASSFACTORYNAME%W32.dll</SourceFile>
+            <DestinationFile>%TC_SYSSRVEXEPATH%%CLASSFACTORYNAME%W32.dll</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT OS (x64)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT OS (x64)\%CLASSFACTORYNAME%.tmx</SourceFile>
+            <DestinationFile>%TC_DRIVERAUTOLOADPATH%%CLASSFACTORYNAME%.tmx</DestinationFile>
+          </FileEntry>
+        </Deployment>
+        <EventClasses>
+          <EventClass>
+            <Type GUID="{02040001-0000-0000-F000-000000000064}">TcAnalyticsKernelEventClass</Type>
+          </EventClass>
+        </EventClasses>
+        <Properties>
+          <Property>
+            <Name>Description</Name>
+            <Value>The Edge Counter OnOff 1Ch counts the amount of raised on- and off-events. An on-event is raised when the signal of the first input channel passes the configured edge at a specific on-threshold and an off-event is raised when the off-threshold is passed by the same signal. Optional a boolean signal for Enable Execution can be selected, so that the algorithm is just active if the value of the selected signal is TRUE.</Value>
+          </Property>
+          <Property>
+            <Name>AdapterExtensionProgId</Name>
+            <Value>TwinCAT.AnalyticsBaseModuleAdapter</Value>
+          </Property>
+          <Property>
+            <Name>CodeGenerationId</Name>
+            <Value>35CFD307-6B82-4936-91E9-10000000000B</Value>
+          </Property>
+          <Property>
+            <Name>Image256x256</Name>
+            <Value>89504E470D0A1A0A0000000D49484452000001000000010008060000005C72A866000000017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048597300000EC200000EC20115284A800000001974455874536F667477617265005061696E742E4E45542076332E352E343E8DCC76000008C049444154785EEDDD5D7395E5150660FE49B501B463C7A0A185D68E804202B556CBD08F93DAF60C06AD9D9EA1ED81B5078EED812282B60705670A1ED8DF987631EF1E5278DE647FAC9D3C2BFBBA66D64C263B09D9CF7D3F0B49201E0100000000000000000000000000000000000000000000000000000000000000000098DEF5ABD7B65F7C7E7D7BED5B4F99A213F9458E43A4B0B79B9F7CDA2C93A93D91EB1031B47D7DFF41B33CE6704CE43B440D4FDA583FD12C8E391C13F90E51C3935AA531876B86A8E1FFDDBAF959B330E6704DE43C440E8F7CF8C107CDC298C33591F310393C6201ACC65800345900AB3116004D16C06A8C05409305B01A6301D06401ACC6580034CDBA0014A90F72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228524D72238522D524375228D2FEFAD38DF7B67F79E5CAC389978757CF4C6EA4F8F37BEF370B33368A349FEB57AF35CF33261E1BDE6C6AFBB500BEBCF3C5F64F2E5EDAFECEB1E30F275E8ED70D0F53DDE993DF6B16666CFEF8EE1F843FA3DFBDF59BE659EE9CCB3F7D63A673DD8F05B0F9CAABCD8F15138F0D6F465551BA56B8BBCD73CF3C2BF819FCE79B6F9AE7D89A5996C0B217C00F4F9D6E7E9C9D73E1DC2BBA50D53C977F32275F7841F0538A3FEBB7CE706CA65D02CB5C00D35CFEC9DCB97D5B17AA59E4F24FC612984EFCB9B9757EBBCD344B60590B6096CB1F736973530F2AC9B8FC93B104F676F4A9A79B67B7D7ECB50496B10066BDFC31C7D7D674A08ACCCB3F194B6077675EFA51F3DCA699DD9640F60298E7F2C75800452CE3F24FC61218F7D7BF7CD83CB369676C09642E80C8AFF53ED3CC6B5B1765DFBB655EFEC95802E336D64F34CF6CDA692D81AC05B0C8E58FF9E2F61DB9F76C3F2EFF642C8171F1EDD3D6994D3B8F2F818C05B0E8E5DF3A7F41DE3D8BAFD0B6825BE6C4EF76C32FCF633297C0A20B60D1CB1F5F33183E143D3A88CB3F99F5E7BEAB1C23B296C0220BC0E53FE40EF2F24FC61218B7E812887CDFBF71A3F9D8D84C1680CB7FC8F570F92763098C5B74096C9C98ED22C7BFE170F90FB99E2EFF642C81718B2E815966D15FEBDCCB67E4D8B31E2FFF642C8171FBB904E61D97BF733D5FFEC95802E37A5E022E7FE716BDFCCF1E3DD67CFD32C61218D7E31270F93BB7E8E58F0BF9FBEB6F371F1B9B59BFF8F4F85802E37A5A022E7FE7322E7F7C9C59BF9F1CDF7ECAFAB579529C4DEBCCF6735CFECE655EC079FF428925B03C07B9045CFECE5D7EE3CD6670D3CEE3176FDE05102C81E5398825E0F277EEABBBF79AC14D3BAD0BB7C802088B2E81531B27956EC47E2E0197BF80375F7FBD19DE3433F6BBEDA20B202CBA043EFEE823E51BB11F4BC0E52F62DE6FD98D5DFE90B100C2224B400177B7CC25E0EC0B39F6F4B79B21EE36BB5DFE90B500C2BC4B209ED7F02118B18C25E0F21773FEECB9669063B3D7E50F990B20CCB304E2BF6C86776717994BC0E52FE8EF1FFFAD19666BA6B9FC217B01845997407C67637857F690B1045CFEC25E3ABDF74F6F9DF6F287652C8030CB1278F0EFFB0A39834596C0C50B7E8E7F793FF8FEA966B831F1D8F0665359D60208D32C815FFDFC170A398779BE201C790CEF4E75F1E3A677FE8F3DE3E578DDF0F0D496B900C26F7FFD56F3E3C4C463C39B31A379FE0DC7F0AEF0C8B217C0C4BB6FBFF3F067C8C7C4CBC3AB99D3ACB9C5BFE118DE151ED9AF05402EB99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B99142916A921B2914A926B91D22F7FE7577FBCACF2E6FBFF8FC7A33BC9E4691FA30EB0238A8894E47B7BFBA7B4F6F5A5EDBBAD83CB85EC702E8439505B073A2EBC3A74FB8B4B9D93CA89EC702E843C50510139D1F9EC26AFBE797FF681E50EF6301F4A1EA028889EE0F4F6375FD786BAB7938BD8F05D087CA0BC01F05FEE799B5A3CDC3E97D2C803E545E00D1FDE169ACAEE36B6BCDC3E97D6EDDFC4C781D881C5AF95498E8FEF03456D7D6F90BCDC3E97D864F9F0EB4F2A930D1FDE129ACAEDBB76E350FA7E7D9583F21B88E441EAD9C7A9FE8FEF01456DBB997CF340FA8D7F9FAFE03C17524F268E5D4F344E7874F9FF0EAD9B3CD83EA6D6E7EF2A9E03A14B9B4F2EA71A2EBC3A7CD4E773EFF7CFBE285CD875F1D6D1DDC414DFC35CEEB57AF09AD80C8A9C7BF4A1E5FF08B6E47C7874F15000000000000000000000000000000000000000000000000000000000000000000E8D49123FF05447BDB8527BC18760000000049454E44AE426082</Value>
+          </Property>
+          <Property>
+            <Name>Title</Name>
+            <Value>Edge Counter OnOff 1Ch</Value>
+          </Property>
+          <Property>
+            <Name>NetworkId</Name>
+            <Value>1</Value>
+          </Property>
+          <Property>
+            <Name>Enabled</Name>
+            <Value>True</Value>
+          </Property>
+        </Properties>
+        <InstanceName>CTcAlyEdgeCounterOnOff_1Ch</InstanceName>
+        <OTCID>#x01010020</OTCID>
+        <ParameterValues>
+          <Value>
+            <Name>IsConfigured</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>CyclicCaller</Name>
+            <EnumText>TRUE</EnumText>
+          </Value>
+          <Value>
+            <Name>Persistent</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>TraceLevel</Name>
+            <EnumText>TCEVENTSEVERITY_Error</EnumText>
+          </Value>
+          <Value>
+            <Name>DataType</Name>
+            <EnumText>LREAL_</EnumText>
+          </Value>
+          <Value>
+            <Name>ComparisonOperatorEdgeOn</Name>
+            <EnumText>GreaterThanOrEqualTo</EnumText>
+          </Value>
+          <Value>
+            <Name>ThresholdEdgeOn</Name>
+            <Value>1</Value>
+          </Value>
+          <Value>
+            <Name>ComparisonOperatorEdgeOff</Name>
+            <EnumText>LessThan</EnumText>
+          </Value>
+          <Value>
+            <Name>ThresholdEdgeOff</Name>
+            <Value>1</Value>
+          </Value>
+          <Value>
+            <Name>Tolerance</Name>
+            <Value>0</Value>
+          </Value>
+          <Value>
+            <Name>NegIn</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>NegEnableExec</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>NegReset</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+        </ParameterValues>
+        <InterfacePointerValues>
+          <Value>
+            <Name>CyclicCaller</Name>
+            <OTCID>#x00000000</OTCID>
+          </Value>
+        </InterfacePointerValues>
+      </Module>
+      <Module GUID="{02040104-0000-0000-F000-000000000064}" Group="TcAnalyticsKernel Base">
+        <Name>CTcAlyEventTimingAnalysis_1Ch</Name>
+        <DisplayName><![CDATA[Event Timing Analysis 1Ch]]></DisplayName>
+        <CLSID ClassFactory="TcAnalyticsKernel">{02040104-0000-0000-F000-000000000064}</CLSID>
+        <Info>
+          <ImageData>424dc60000000000000046000000280000001000000010000000010004000000000000000000c30e0000c30e00000400000004000000ff00ffffffffffff000000ff000033ff0000011111100000000111222211100000112222222211000112211221122110012211111111221011211111211112111221111121111221132211112111222112221111211122211221112221111221112111122111121101221111111122100112211221122110001122222222110000011122321110000000011111100000</ImageData>
+        </Info>
+        <Licenses>
+          <License>
+            <LicenseId>{10032AB1-C6C6-40E5-890B-594BF889C5A3}</LicenseId>
+          </License>
+        </Licenses>
+        <InitSequence>PSO</InitSequence>
+        <Contexts>
+          <Context>
+            <Id>0</Id>
+          </Context>
+        </Contexts>
+        <Interfaces>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{02040104-0002-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyEventTimingAnalysis_1Ch</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{02040003-0000-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyCallback</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{00000012-0000-0000-E000-000000000064}">ITComObject</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{03000010-0000-0000-E000-000000000064}">ITcCyclic</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{03000012-0000-0000-E000-000000000064}">ITcADI</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{03000018-0000-0000-E000-000000000064}">ITcWatchSource</Type>
+          </Interface>
+          <Interface DisableCodeGeneration="true">
+            <Type GUID="{02040001-0000-0000-E000-000000000064}" Namespace="Tc3_Analytics">ITcAlyMessageProvider</Type>
+          </Interface>
+        </Interfaces>
+        <Parameters>
+          <Parameter OnlineParameter="true" DisableCodeGeneration="true" ReadOnly="true">
+            <Name>IsConfigured</Name>
+            <DisplayName><![CDATA[Is Configured]]></DisplayName>
+            <Comment><![CDATA[Module is configured]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040011</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>CyclicCaller</Name>
+            <DisplayName><![CDATA[Cyclic Caller]]></DisplayName>
+            <Comment><![CDATA[Use cyclic caller]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>TRUE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040001</PTCID>
+          </Parameter>
+          <Parameter HideParameter="true" DisableCodeGeneration="true">
+            <Name>Persistent</Name>
+            <DisplayName><![CDATA[Persistent Results]]></DisplayName>
+            <Comment><![CDATA[Using persistent struct]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Property</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>PLC</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040002</PTCID>
+          </Parameter>
+          <Parameter HideParameter="true" DisableCodeGeneration="true">
+            <Name>TraceLevel</Name>
+            <DisplayName><![CDATA[Trace Level]]></DisplayName>
+            <Comment><![CDATA[Configure minimum severity messages should be send to event logger]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{B57D3F4A-0836-49B0-81C3-BED5F4817EC9}">TcEventSeverity</BaseType>
+            <Default>
+              <EnumText>TCEVENTSEVERITY_Error</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>EventSeverity</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040010</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>DataType</Name>
+            <DisplayName><![CDATA[Data Type]]></DisplayName>
+            <Comment><![CDATA[Configured data type]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{D158CBD4-0226-41A0-9D2C-C4C3592D0D0C}" Namespace="Tc3_Analytics">E_ALY_DataType</BaseType>
+            <Default>
+              <EnumText>LREAL_</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Hide</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>DataType</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>DataIn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040101</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ComparisonOperatorEdgeOn</Name>
+            <DisplayName><![CDATA[Operator Edge On]]></DisplayName>
+            <Comment><![CDATA[Configured operatorfor "on" condition (edge)]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{93FFE2DF-52A7-4DCD-8425-50143FA7DFF3}" Namespace="Tc3_Analytics">E_ALY_ComparisonOperator</BaseType>
+            <Default>
+              <EnumText>GreaterThanOrEqualTo</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>OperatorEdge</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ThresholdEdgeOn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040111</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ThresholdEdgeOn</Name>
+            <DisplayName><![CDATA[Threshold Edge On]]></DisplayName>
+            <Comment><![CDATA[Configured threshold for "on" condition (edge)]]></Comment>
+            <BitSize>64</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
+            <Default>
+              <Value>1.0</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Threshold</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ComparisonOperatorEdgeOn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040121</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ComparisonOperatorEdgeOff</Name>
+            <DisplayName><![CDATA[Operator Edge Off]]></DisplayName>
+            <Comment><![CDATA[Configured operatorfor "off" condition (edge)]]></Comment>
+            <BitSize>16</BitSize>
+            <BaseType GUID="{93FFE2DF-52A7-4DCD-8425-50143FA7DFF3}" Namespace="Tc3_Analytics">E_ALY_ComparisonOperator</BaseType>
+            <Default>
+              <EnumText>LessThan</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>OperatorEdge</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ThresholdEdgeOff</Value>
+              </Property>
+              <Property>
+                <Name>WBC_EffectedByParameter</Name>
+                <Value>SingleEdge</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040112</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>ThresholdEdgeOff</Name>
+            <DisplayName><![CDATA[Threshold Edge Off]]></DisplayName>
+            <Comment><![CDATA[Configured threshold for "off" condition (edge)]]></Comment>
+            <BitSize>64</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
+            <Default>
+              <Value>1.0</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Threshold</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>ComparisonOperatorEdgeOff</Value>
+              </Property>
+              <Property>
+                <Name>WBC_EffectedByParameter</Name>
+                <Value>SingleEdge</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040122</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>Tolerance</Name>
+            <DisplayName><![CDATA[Tolerance]]></DisplayName>
+            <Comment><![CDATA[Tolerance for Equals and NotEquals opration]]></Comment>
+            <BitSize>64</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-00000000000E}">LREAL</BaseType>
+            <Default>
+              <Value>0.0</Value>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Optional</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Value</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040007</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>InitWithThresholdLevel</Name>
+            <DisplayName><![CDATA[Init With Threshold]]></DisplayName>
+            <Comment><![CDATA[Negate Input]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040311</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>NegIn</Name>
+            <DisplayName><![CDATA[Negate Input]]></DisplayName>
+            <Comment><![CDATA[Negate Input]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Negation</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>DataIn</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040105</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>NegEnableExec</Name>
+            <DisplayName><![CDATA[Negate Enable Execution]]></DisplayName>
+            <Comment><![CDATA[Negate Enable Execution]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Optional</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Negation</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>bEnableExecution</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040012</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>NegReset</Name>
+            <DisplayName><![CDATA[Negate Reset]]></DisplayName>
+            <Comment><![CDATA[Negate Reset]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Optional</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Negation</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Related</Name>
+                <Value>bReset</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040013</PTCID>
+          </Parameter>
+          <Parameter DisableCodeGeneration="true">
+            <Name>SingleEdge</Name>
+            <DisplayName><![CDATA[Single Edge]]></DisplayName>
+            <Comment><![CDATA[Use single edge for processing]]></Comment>
+            <BitSize>8</BitSize>
+            <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+            <Default>
+              <EnumText>FALSE</EnumText>
+            </Default>
+            <Properties>
+              <Property>
+                <Name>WBC_Usage</Name>
+                <Value>Show</Value>
+              </Property>
+              <Property>
+                <Name>WBC_Category</Name>
+                <Value>Boolean</Value>
+              </Property>
+            </Properties>
+            <PTCID>#x02040312</PTCID>
+          </Parameter>
+        </Parameters>
+        <DataAreas>
+          <DataArea DisableCodeGeneration="true">
+            <AreaNo AreaType="InputDst">0</AreaNo>
+            <Name>Inputs</Name>
+            <ContextId>0</ContextId>
+            <ByteSize>24</ByteSize>
+            <Symbol>
+              <Name>DataIn</Name>
+              <DisplayName><![CDATA[Input]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000A}">LWORD</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Input</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>DataType</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000000</PTCID>
+              <BitOffs>0</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tTimestamp</Name>
+              <DisplayName><![CDATA[Timestamp]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Hide</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timestamp</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000008</PTCID>
+              <BitOffs>64</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bEnableExecution</Name>
+              <DisplayName><![CDATA[Enable Execution]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Description</Name>
+                  <Value>Datatype: BOOL.</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000010</PTCID>
+              <BitOffs>128</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bReset</Name>
+              <DisplayName><![CDATA[Reset]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Description</Name>
+                  <Value>Datatype: BOOL.</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x80000011</PTCID>
+              <BitOffs>136</BitOffs>
+            </Symbol>
+            <Xml>
+              <StartupList>
+                <List />
+              </StartupList>
+            </Xml>
+          </DataArea>
+          <DataArea DisableCodeGeneration="true">
+            <AreaNo AreaType="OutputSrc">1</AreaNo>
+            <Name>Outputs</Name>
+            <ContextId>0</ContextId>
+            <ByteSize>120</ByteSize>
+            <Symbol>
+              <Name>bNewResult</Name>
+              <DisplayName><![CDATA[New Result]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>NewResult</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000000</PTCID>
+              <BitOffs>0</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>bIsOn</Name>
+              <DisplayName><![CDATA[Is On]]></DisplayName>
+              <BitSize>8</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-000000000030}">BOOL</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Boolean</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000001</PTCID>
+              <BitOffs>8</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tCurrentInterval</Name>
+              <DisplayName><![CDATA[Current Interval]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000C}">LINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timespan</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000008</PTCID>
+              <BitOffs>64</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOnMin</Name>
+              <DisplayName><![CDATA[On Min]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000C}">LINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timespan</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>tOnMinEvent</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>MarkerTimespan</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000010</PTCID>
+              <BitOffs>128</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOnMax</Name>
+              <DisplayName><![CDATA[On Max]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000C}">LINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timespan</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>tOnMaxEvent</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>MarkerTimespan</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000018</PTCID>
+              <BitOffs>192</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOnAvg</Name>
+              <DisplayName><![CDATA[On Avg]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000C}">LINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timespan</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000020</PTCID>
+              <BitOffs>256</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOnTotal</Name>
+              <DisplayName><![CDATA[On Total]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000C}">LINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timespan</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000028</PTCID>
+              <BitOffs>320</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOffMin</Name>
+              <DisplayName><![CDATA[Off Min]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000C}">LINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timespan</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>tOffMinEvent</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>MarkerTimespan</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000030</PTCID>
+              <BitOffs>384</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOffMax</Name>
+              <DisplayName><![CDATA[Off Max]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000C}">LINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timespan</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>tOffMaxEvent</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>MarkerTimespan</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000038</PTCID>
+              <BitOffs>448</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOffAvg</Name>
+              <DisplayName><![CDATA[Off Avg]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000C}">LINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timespan</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000040</PTCID>
+              <BitOffs>512</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOffTotal</Name>
+              <DisplayName><![CDATA[Off Total]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000C}">LINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timespan</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000048</PTCID>
+              <BitOffs>576</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>nCountOn</Name>
+              <DisplayName><![CDATA[Count On]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Show</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Count</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000050</PTCID>
+              <BitOffs>640</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOnMinEvent</Name>
+              <DisplayName><![CDATA[On Min Event]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timestamp</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>tOnMin</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>MarkerTimespan</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Eventtype</Name>
+                  <Value>OnMin</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000058</PTCID>
+              <BitOffs>704</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOnMaxEvent</Name>
+              <DisplayName><![CDATA[On Max Event]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timestamp</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>tOnMax</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>MarkerTimespan</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Eventtype</Name>
+                  <Value>OnMax</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000060</PTCID>
+              <BitOffs>768</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOffMinEvent</Name>
+              <DisplayName><![CDATA[Off Min Event]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timestamp</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>tOffMin</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>MarkerTimespan</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Eventtype</Name>
+                  <Value>OffMin</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000068</PTCID>
+              <BitOffs>832</BitOffs>
+            </Symbol>
+            <Symbol>
+              <Name>tOffMaxEvent</Name>
+              <DisplayName><![CDATA[Off Max Event]]></DisplayName>
+              <BitSize>64</BitSize>
+              <BaseType GUID="{18071995-0000-0000-0000-00000000000B}">ULINT</BaseType>
+              <Properties>
+                <Property>
+                  <Name>WBC_Usage</Name>
+                  <Value>Optional</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Category</Name>
+                  <Value>Timestamp</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Related</Name>
+                  <Value>tOffMax</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_ScopeRelated</Name>
+                  <Value>MarkerTimespan</Value>
+                </Property>
+                <Property>
+                  <Name>WBC_Eventtype</Name>
+                  <Value>OffMax</Value>
+                </Property>
+              </Properties>
+              <PTCID>#x81000070</PTCID>
+              <BitOffs>896</BitOffs>
+            </Symbol>
+          </DataArea>
+        </DataAreas>
+        <InterfacePointers>
+          <InterfacePointer DisableCodeGeneration="true">
+            <PTCID>#x03002060</PTCID>
+            <Name>CyclicCaller</Name>
+            <Type GUID="{0300001E-0000-0000-E000-000000000064}">ITcCyclicCaller</Type>
+          </InterfacePointer>
+        </InterfacePointers>
+        <DataPointers>
+          <DataPointer>
+            <PTCID>#x02041001</PTCID>
+            <Name>DataIn</Name>
+            <Type>LWORD</Type>
+          </DataPointer>
+          <DataPointer>
+            <PTCID>#x02041010</PTCID>
+            <Name>Timestamp</Name>
+            <Type>ULINT</Type>
+          </DataPointer>
+          <DataPointer>
+            <PTCID>#x02041011</PTCID>
+            <Name>EnableExecution</Name>
+            <Type>BOOL</Type>
+          </DataPointer>
+          <DataPointer>
+            <PTCID>#x02041012</PTCID>
+            <Name>Reset</Name>
+            <Type>BOOL</Type>
+          </DataPointer>
+        </DataPointers>
+        <Deployment>
+          <FileEntry TargetPlatform="TwinCAT RT (x86)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT RT (x86)\%CLASSFACTORYNAME%.sys</SourceFile>
+            <DestinationFile>%TC_DRIVERAUTOINSTALLPATH%%CLASSFACTORYNAME%.sys</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT UM (x86)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT UM (x86)\%CLASSFACTORYNAME%W32.dll</SourceFile>
+            <DestinationFile>%TC_SYSSRVEXEPATH%%CLASSFACTORYNAME%W32.dll</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT RT (x64)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT RT (x64)\%CLASSFACTORYNAME%.sys</SourceFile>
+            <DestinationFile>%TC_DRIVERAUTOINSTALLPATH%%CLASSFACTORYNAME%.sys</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT UM (x64)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT UM (x64)\%CLASSFACTORYNAME%W32.dll</SourceFile>
+            <DestinationFile>%TC_SYSSRVEXEPATH%%CLASSFACTORYNAME%W32.dll</DestinationFile>
+          </FileEntry>
+          <FileEntry TargetPlatform="TwinCAT OS (x64)">
+            <SourceFile>%SOLUTIONMODULEINSTTPATH%TwinCAT OS (x64)\%CLASSFACTORYNAME%.tmx</SourceFile>
+            <DestinationFile>%TC_DRIVERAUTOLOADPATH%%CLASSFACTORYNAME%.tmx</DestinationFile>
+          </FileEntry>
+        </Deployment>
+        <EventClasses>
+          <EventClass>
+            <Type GUID="{02040001-0000-0000-F000-000000000064}">TcAnalyticsKernelEventClass</Type>
+          </EventClass>
+        </EventClasses>
+        <Properties>
+          <Property>
+            <Name>Description</Name>
+            <Value>The Event Timing Analysis 1 Ch measures time differences between on- and off-event and counts the amount of raised events. An on-event is raised when the signal of the input channel passes the configured edge at a specific on-threshold and an off-event is raised when the off-threshold is passed by the same signal. Optional a boolean signal for Enable Execution can be selected, so that the algorithm is just active if the value of the selected signal is TRUE.</Value>
+          </Property>
+          <Property>
+            <Name>AdapterExtensionProgId</Name>
+            <Value>TwinCAT.AnalyticsBaseModuleAdapter</Value>
+          </Property>
+          <Property>
+            <Name>CodeGenerationId</Name>
+            <Value>35CFD307-6B82-4936-91E9-100000000002</Value>
+          </Property>
+          <Property>
+            <Name>Image256x256</Name>
+            <Value>89504E470D0A1A0A0000000D49484452000001000000010008060000005C72A866000000017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048597300000EC200000EC20115284A800000001974455874536F667477617265005061696E742E4E45542076332E352E343E8DCC760000191849444154785EED9D8993554596C6F94FC605040B0A59548ADD8999966E17F66E10B400B141AA41E8021DD9BBD440D476C1A60B97C008816271C18EC0F9FBEEF8D59CD7BE7A7E992FF3DE9B7779EFFB457C114AE5C9CC7BF2BC57757339394F082184104208218410420821841042082184104208218410420821841042082184104208218410420821841042082184104208218410420821841042082184104208218410420821841042082184106218F9FACBAFB2F7A6DEC9268F9FC80E8CEFCBB66DDE9C3DB37E43B67C7469F6C4E225D9638F3C9A3DFA1F0FCD11FE0D3F431994850D6C5107EA429D56BD10A26E6EDDB8919D3B7D26DBB96DFBEC07B7F7039D5A68136DA30FE88B754B085136FFBAFF5376FECCD9ECB94D9BB2F90F3D4C3F904D10FA863EA2AFE8B3755F08110B3E441BD6ACA51FB43609CF8067B1C7124230666EDDCAC6F7EECD16CD5F403F4883203C1B9E11CF6A8F2DC4F0F2DDDDBBD9FE57C6E9A4DCA00BCF8C67870FCC1D420C076F4E9ECC162F5C443F18C328F8023E31F70831787C73FD7AF6EC7FFD37FD0048BF0A3E82AFCC6D42B49BCB972E65CB968CD26097DC82CFE03B73A310EDE2AD93A7B2858FCEA7C12D850B3E842FCDAD42341BBCCB0EE3A45E6AC1A79A27108D056BDDFA8D9F5EF0B1F61588C6F0C5F4B56CE9C8621AAC556BE4B185B39368AFEEDB9F5D387B2E43DF3ACB6CACBC4FB0812DEA405DA81375A30D56BE6AC1E7E81BFA29442DFCE7868D3438ABD0FAD56BB2A31313D93FAE7C1EF4216075F864665ED036FA80BEB03AAA10C6C0BA2344351C7AED351A8C29F5FBDF3D9B4D5DBC98FDFCE041AE806775FA646651A06FE823FACAEA4C298C8975438834600B6B557FEE2F797C243B72E87076EF4E393BE5581B3E995921D0773C039E85B551B63036DA662C92B06BE74E1A74650AEFD713875F4F12C0AC3D9FCCAC54F06C55CC2160ACAC49218A8163ADA9CFDBE35CFD77F7EE250D5AD6AE4F6696043C2B9E99B55B9630663A922C0A71E2D81B34B8CAD0E8C848F6EED4546501CAFAE0939925073E802F581FCA10C6D09A12229C8DEBD6D3802AAA35ABC6B2AFBEF8B2F2A0647DF1C9CC2A033E816F585F8A0A6369CD08E1E7A71FEF273BA987FDEDD64CE5B0FEF8646695F3C3F7DFCF2EEDB13E1511C614636BCD08F15BFE76E1020D9E32756D7ABA9620647DF1C9CC6AE3F6CC4CB66E6C35ED5B11618CAD09217EE5E597F6D080C9AB050F3F42FF7DE513CBF40510C1F62D5B69FF8A08636DD50B316F5E99E7F49118F3ECE9D3D9AD9B37E9CFA14F3FFEB8F20064FDF0C9CC6A275512548CB935218699552B9FA40192479B9F7F614E50FDE159BE230E1B63AC4865B07EF86466B5B2E5851769DFCA12C6DE9A12C34859BBFA30C1E49AD967E5A12A970001EB834F66561BD8D1C7FA0561AB715913B588016B520C136505D01FB7EFF00690EB1D163BE2AC4825B03EF86466B5B162E913B45FDD7E83EF5999582116AC4A310C94716E1F092A3EFFEC4A50E0307BE8CCDB6F571678AC7D9FCCAC1670DB10EB13D4EB73FC7F190958101356A518645CB3F3318ADD58B277F74BB41E04AE15490E6BDF2733AB05D7C41FEE2CB422BFA18C8D5B880DAB4E0C2265FCE647620CAB2E0A561774FCE8B14A828EB5ED939955CEF6CD5B687F202BE20463C3EC62A4BF04069432DEF93FFBE493DCC1E1CA2180DF76562429AC6D9FCCAC52EEDEBE43FB02FDF9E0C1A03E618C987D8C34273060149DED2F2B205C7FDA5691CC82B5EB939955CACA65CB695F1E5FF058747F8A7EE16B75604028BACE5FE65AB1EF74A11549066BD32733AB0CE41D64FD80F26E9C6AD2D88B1A28BAC32FC56E31D78CF59E5DBB93061B6BD32733AB0CD7E4ECC6B5EB0AF5A58931202AA0E8DEFEAD2FBE9864E0B1F4C7DA83AC4812587B3E995925ECD8BA8DF601B22285C058B2BA43A5B3032DA3E8A9BE7E9B7B8AE24A8B854D4356A474587B3E995972901D88B50F1DDC7FA0B47E14DD34A453842D0167BED900860A6BF6565532DE9B7A87B60D5991D2616DF96466C9796AF90ADAFEA2F90B4AEF836B3F46A8944FA0051499FD4DFD9BBF1B57A65CEC73B722A512B35BAEAA0D4A17CFBBFF52FBFB871F25E94391BF04B43CD8708AEC064BF5CEEF0233DBAC1F508A649631B9FA537D09F5E2FA52C2452356240945E604945EACA11449E059D74C2F9283B0FEA4B8ED66FAEA55DA1613CA9A5932FEB4C39D66DD8A24A5C8EA80128D360CFCC6640315A23AD77A71B71DEB1394E2828B905C7B555CB575FF871F69DBD0FE57C62B1B8F22FB049472BC41E4CDDBDF8477BAB1279FA27D5BFDF4AA247DF37D0954F1E1074FAF5849DB4F31F1D78FBC73468839AB42D449911B7BAC8A5AB9F9EDB7B46FD0AD1B3792F411977AE24F606CBE81F0DFA1978C16057707B267853EBC7CB99631617D09916E20AA195FD6987E2A72B0A76CB0DB8DF5F12F478E0C5C80B926FED68E8DD5F6AC450E10E92EC21AC97BC827EF91DE5420173EEB2796C9ACC840706A72923E2764456A23EF51621D1AAA89BC5774377519A7F7556610DF315D1B71C6F7EE6DC4B3E65D46D6D5E435C006A29FAADAE092176C7EC1BEF337274F0E64407DF0FEFBBF1993A625E088D930D52D33175510B29CC5149AC34FA4A33BD5373E6C77666E376A4C1023DD3113AAAA5650861EDFDAB94F556EF315FD69F2BEFABCDB85119B568548459E893FEDE116B1E4D91FA009C1C49C3F73963ABE9FAADADB2E06075CF4C262A99F10A35685289B22597D71065F730022065CF5C662C92765154E0466C699C363E5CB2D2F442F792E271DD4559C5AC9BB3CE352689A6931DCE0A667163F3E357DB9B975BC75F21475745121DD741D57758BF6806BDEF3DC268598B52A4451F2BCFB23BF5EE89F6F4533CF8AC1C475BD7B8834175012972F5DA20EF669DDD8EA7F3B3FE68EF93293508AF6E2BAD13956885DAB52E465D99251EA5C9F6ECFCCCC713C4E6CB9AE9BEE155E0B52E5A313CDA668D2D05E2176AD6A91876FAE5FA78EF5C9B72513D74E87BE16A4CE4B279A43DE836521420C5B3322963C79DB70B4D6CC9DF86EA0ED559529AA44B520B75FCC325F9EBF46EBCA3739103087FAB46655785209DC44EBBA8CB2574855F5D1E50F349003026E678A5956C6EBE3B5E9E9D9F1478CB1323ECD362AE2C8B3F107DB37CD3C186CDD0C5DE6A9336B8D280E2E6471DDCAC484BB1B7A9789F36C11D6C6A01CC41EC6181D1929E464DFFD74BD6A4A020B11063EC4AE8B5898F025F1EED494738C116BCCCE251D468BE4BBBB77A9237DF20D5828B8A7CE755555AFB0CEDBB4B3EC622E389EEBBA7B8109AF05783D307327883566EF1362DACC453F30F1C69CE8939996C28573E783DE11B5E5B39920D3B22BDD3A1326028F1F3D163596AC1E9F34991C41CC040DB473DBF624CEF5DD5ED3912E8C6C0E580172655876296F3E3FC41CABCF25FDB208244FAA6FFCE96EE6A5835B6C5C175940564CD44CECFD107B76ED2E3476BE6BCD5D520AF10030C1C69CE712266CCC3429B8D0A2F72F136C33B61FB78E6BFFFC6776E5D34FBDB2A28D073B37BBC7C5276CF335B3C2C4AC28409A3C0E006BEECC792E4D1C7EBD52A722B73DB68C22C3ADFD53EB084D7461C51B0F3229B3FE772B455628C41E6BCBA53AAE3E6B1DCC713E99990864C39AB5D48F4C66D2787C7B46B0353CE5459EAC4D9FCC4C306273FE616DD74C4500B15B59CDAC15F45E108BCB55AB78E78ED95F002967A08798DF4ED0914387E5CC00B0529127A78299B7065CA586FB14535DAACA400C32DFB984183753D10B73984FF7EE6873453F70EB2FF35D88AC0AE10131C87CE793998A6EF09EC69CE593990A07FF73EA4DEAB7505935A20FCC773EA59C93682DB1EFFFCAF5EF67DFCB2F53BFC5C8AA127D402C32FFB9A47900C2739B365167B984757933153D3CBFE9F7D467B1B2EA441F108BCC7F2E21D6CD547488CDBFFEF38307722201B3DFCC5F7964558A3E201699FF5C42AC9BA9E8C01CE59399892EF2DC9BE893552B0260FEF3C9CC04C0B20D73924BCAD7371764378A3D401522AB5E048098643E74A9CAA5CAC683649DCC492E1D9D9890F38CE9AB57A98F5C8AD90F604D88001093CC872E21E6CD54C41EADC4DAB6990E3DFFFBE067EA23A68DEBD6CFEE9D603F63B2264400B1FB2D521D616F25BDDB38FBC9CC8481ECB6CC4FDDEA5E36653F67B2E22210E6439710F3662698837C3233D1856FF67FDBE6CD737CC6CA3059711108F3A14F662698735CAAEAFC7F1B61FEC2D165FBF1BF61E598ACB80824363F809909E61C9774D1829BDEDD94AE2BD0BBCBF864C54520B117D998D970F3F5975F51E7B8F4EABEFD729C079C7F879FFEFAC671A79F7A7DEA921517812036991F5D42EC9BE9F082CB1A98735CBA70F69C9CD6071C8BB5FFA430BF32597111086293F9D125C4BE990E2F93C74F50E7B8845CEF662A72C2FCCA64C54520884DE6479710FB663ABC1C18DF479DE3922E58280EF32B93151781C45E6883D837D3E1054B54CC392E99992800F32B93151711303FBAD4BB3C3B943CB37E03754E9DC2BE7A6C9CC1365BEBE640C19E99C98AB71A8C21C632C55989A242EC5B378797E5A34BA9739A22CCAA5B570706F69C4C56BCB57456449A2AC4BE75757889DD065C8706ED4B803D2393156F254DFFF043DA0EFC0B4DFCD38C69900E20B1E763B2E2ADA34822D42A85D8B72E0F2FCC314DD420ED4064CFC764C55B47EC8EBC3A655D1E5E98539AA8050F3FA22F809680B162CFD34459978717E694264A5F00ED415F002D8239A589D22B407BD02B408BD02460F5B0E763B2E2AD4393802D42CB80D5C39E91C98AB7122D03B6046D04AA1EF69C4C56BCB534FD4B401B817E415B81AB873D3393156F35DA0ADC707418A87A985F99ACB88880F9D1251D06FA051D07AE1EE657262B2E02D171E01C282148F530BF32597111881282E44029C1AA87F995C98A8B4094122C074A0A5A3DCCAF4C565C04A2A4A03961CE71699076E4D505F32B93151781C4EE403433C19CE3922E06290EF32B93151781E862909C30E7F864662227CCA74C565C04C27CE8939989D8EDC0662672C27CCA64C54520CC872E691B7017BA1EBC5A984F99ACB80820F60092AE07EFE2DCE933D4492E1D9D9890F30AC07CCA64C545008849E6439710F3662A6EDDB8419DE4D2FAD56BE4BC02309F32597111006292F9D025C4BC990AC09CE49399891C307F3259711100F39F4F66263ACC7FE861EA28977E7EF0404ECC09F3279315177D402C32FFB984583753D1E1B94D9BA8B35C9ABA78514ECC09F3279315177D402C32FFB984583753D1E1FC99B3D4592EE18CB7998A48983F99ACB8E8036291F9CF25C4BA998A0EFFBAFF1375964F662A2261BE64B2E2A20FCC773E21D6CD5474C39CE5D3BD3BCA0D9007E64B262B2E3C200699EF7C3253D1CB86356BA9C35C3A72E87065CEC4B2CD5F8E1CC92E9EBFD0FA0164BE64B2E2C2036290F9CE25C4B8998A5E62E701963C3E92DC9933B76E65AB9F5E35A7DDB66FE3EC7E169FACB8F0801864BE7349EFFF7D604EF3C9CC4A07EF69BEACB26F4E9E6CED40B2E761B2E2C203F39B4F66265C2C9ABF803ACEA589C3AF97EED49059DD975FDAA32F8086F0C1FBEF677B77BF949D9A9CACB4CF883DE6379710DB662A5C8CEFDD4B9DE75299F901B66FD94ADB60FAFB871FE90BA0016C79E1C5397D46FAEFAAF688C49EFF476C9BA97081776EE63C9FBEBB77AF9063F7ECDA4DEB7569D7CE9D1AC886C0C6077A7AC5CAECFE0F3F261B27C41C6BD727C4B6990B1FB19738E43D5A79E8B5D7687D2E6D5CBB2EFBE1FBEF35880DE1A71FEFD371EAD69F76A4F9B28E3DC2AE7B0023D8FFCA3875A24F661AC4F1A3C766F763B37A98C69E7C2ABBF9EDB71AC00612F2CB0265CA5EBE65EDF884983653D18FD80B16A077A7A6FA3AF8CCDB6F475D11B5F28965BA87A0E1DC99B99D2D7C743E1DBF5E3DB57C45E1D745805863F5FBA40B6D2259BC701175A44BA323EE3D0118B098091BACED7EFAF1C71AB016113379BC63EBB642638B5863F5BA84583653110AD6D999337DFAEA8B2FE7381A1FE2988D1AF892D0650DED66EDD8181DDB5E2D78F8915C97CC20C6587D3EB579CF48AD3067FAB466D5D8ACA3AF4D4F672B963E41CB30E1B500AF07B38D8AD6F3E1E5CBB36BEE6CAC7BB572D9F2ECEEED3BC1638F1863F5F864A62296D88B16A0654B46E9BF336122F0C4B1373440034ACC64F2F6CD5BFAC601568098AD4FBAC8A600DF5CBF4E9D5A86B00468CD880127345F1F7E21F89275FAB686BB84183673918798DFE821C29651AB5A0C11D8B919FA5A80D7C7DE4D3BB7676668599F10BB662EF272F9D225EADC58619BAF5529869883FB0FD0F860C23663339BB76E6C352DE31362D7CC451142D77999FEF0AC528789DF825D9D2C5E7A85D7829833221D2166AD295194B74E9EA24EF609CB3CB76EDED420082758267E7CC163347E8A0A316BCD883288D9C1D7D1D9D3A73508A22F7F3E7890C64F5E2156AD6A511679360629FFBA88E199F51B681CC54A1B7F1291672E60F3F32F683044309F7F76256ADB78AFF4EE9F90D89C811DF56E1116A21FB1B9FE3B52CEBFC42C1D594C1DEF930E638858620FA341884D3317A9C0F15CE6FC7EFAE3F61D8D1D1C24B6B0FF140D00B1C262A89F7474BC22F26CC984F07E675534029C65EF5EDDE8DE7822EA0131D21D33A1424C5A15A20AD820F453D39667D8A42632DCDA8F070ACC8C239372D393A9E6596E86CC5C54456C3EBF8E36AE5BDF88C17225B018C4B30AB848A5FB199B9A5415B1D1DDCF50E960594DE49910845EDDB7BFF60163FD82AACE6D9F1AE4E263CFD9B4E4AA8809D6CF7ED2C45F8DE44921DED1679F7C52DBC0B9B2D60CE20E32DCA7C89E157BF1AD48ED2016581F43A454DF35833F27D9C084C8AAA8948F2E7F40FB025575A1C53FAE7C3E9BA802E72520FC37FECD7E5C2AB854953D2BD4944CCBAC6F21D2FD100DA1F71D335475EC0F709D49C74516562429BE15945433D9BD97AB768474EB56A436F2ACF7436DBF2076A0C0459E6C9042B46AE593950DA42F4555CA5B6C3A842C9FA6F812F0BDAAD5B9768EB1677D0A1162CEAA114D00B9FDD84085A8AABC6DAC6D28D5ED35DD4C5FBD4ADB664259332B0DD7970FEE5EB022959227DF6447CA23D950F22EE3405B5F4CBB09C79597AEAA89BF98BDED286B66A5E1FB2BADEA3B1830D6AC1F216ACA32B27090F79D0E4AB55D189B5F587BD08573E72B09A8980D2EA9BE945C5F42B8BBC18A2427EF365F48674A5A40C885913EA5D888E39AF8C35555562439AC7D9FCCAC74585B501517B2606C59DBA1D2998D96F0B70B7CF349A8CAFC4BC09784B28C7BEA4261EDFB6466A5E3CAAF8733F8562409457EF3438829AB4AB401EC3B670319AAB2E60458DD50D1FBE962617DF0C9CC92C0DA8352DDCE54E49D1F422C5955A24D1499E9858AAE0EB832CF62F38D15A90CD60F9FCC2C097B76EDA66DA6987BA83B0644CD1459EB85F2EE13C0CC36AB0FCA73296551583F7C32B364B036A13297D8EA1A7BD130F21E1AEA28CFECAF2BDD342EA3B42295C2FAE2939925C3759AB3AC44AE455683201DF219308A0604147A80C897663AE626DA32617DF1C9CC92820F3B6BBBC8F1DA22077B3AD272DF8052E486A18E428E12333B28E406DA54B0FEF8646649397EF4186D1BB22251E43DD2DB2D65F51D703001C7063E46BEDD60AEDCF275DF51C0FAE4939925C7B54129763F46915DA01DD531392B6AA08CBF0410B8BD39067DF9E47CD74E5701EB934F66961C2CFDB1F6212BE2053E8FD9E5E8927EF30F1965CC0940DD9B865C174AE0BA692B521BAC5F3E995925B8FCD6EF46E7A29B7B3AD23BFF90527475A0230490EFB04D13B2C6B07EF9646695F0EED414ED036445E6808B5ECAFA02D76CFF905374ADB89F9A92EA9BF5CD2733AB0C1C0862FDE8BDDE1D57BDB17279A4757E314BD1DD622E35E97252D63F9FCCAC327C1BA770CD3B6E7A762D1BE69176F88939143D3BC0D4EF1DB64A58FF7C32B34AC15C09EB4B192B37DDD2DE7E41297A8A9069DDD8EAECF6CC4CED01C7FAE6939955CAB5E969DA9732A5537DC20BCE7C9735C1D42DA4C4AA33173EEB934F665639CB968CD2FE1415C654E7F94530656C2C615AB36AAC96EBCA595F7C32B3CA804FE01BD697A2521A2F918B228946FB69746424C3F29735951CD6079FCC2C39F0017CC1FA508694C0531402C92CF3DE3B10AA9DDBB627CF0EC4DAF5C9CC928067C533B376CB12C64CA9BB456914B9812854D8113771F8F52441CBDAF3C9CC4A05CFE6DAF557A674638F480276F495B57BB09FB031E6C8A1C3D9BD3B774B0966D6864F665608F41DCFE0DAE453B63036BAAB4F2427EFD5E44584ADC6B83BF0E7070F720538ABD327338B027D431F63EE20284BBAA25B544EC8555BA9848B468E4E4C045FEAC9EAF0C9CCBCA06DF4C175E949154A71959910C1E06EBBAA5E0BFA09EFD7D8E28AC418C83B88BE7D77F7FF5F2158799F60035BD481BA5027EAAEE21D3E44F0799DF70A0A3187F367CECE9E2967C12A9527F818BE36B70BD12CDE9C3C594A820A69AEE053F8D6DC2C44B379EBE429FD455082E043F8D2DC2A44BBB87CE952966A7FFB200B3E83EFCC8D42B49B6FAE5F9F9D4463C12EFD2AF808BE32B7093178E05D36C589C3B60ABED0FBBD183AB0CCB6FF95F1A19C34C433E3D93BCB94420C35D8C23ABE776FB668FE02FA811904E1D9F08CDAAE2B441FB0D6BD61CD5AFA416A93F00C5AB717A20038D68A0FD1739B36959A18B36CA16FE823FAAAA3B84224E4D68D1BB3B70DE15C7DEA7C054C68136DA30FE88B754B0851375F7FF955F6DED43BD9E4F113D981F17DD9B6CD9B33DC59B87C74E9EC07974D3AE2DFF033944159D8C01675A02ED469D50B218410420821841042082184104208218410420821841042082184104208218410420821841042082184104208218410420821841042082184104208218410420821841042082184104208218410420C11F3E6FD1FBA180CC8758BD4FB0000000049454E44AE426082</Value>
+          </Property>
+          <Property>
+            <Name>Title</Name>
+            <Value>Event Timing Analysis 1Ch</Value>
+          </Property>
+          <Property>
+            <Name>NetworkId</Name>
+            <Value>1</Value>
+          </Property>
+          <Property>
+            <Name>Enabled</Name>
+            <Value>True</Value>
+          </Property>
+        </Properties>
+        <InstanceName>CTcAlyEventTimingAnalysis_1Ch</InstanceName>
+        <OTCID>#x01010030</OTCID>
+        <ParameterValues>
+          <Value>
+            <Name>IsConfigured</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>CyclicCaller</Name>
+            <EnumText>TRUE</EnumText>
+          </Value>
+          <Value>
+            <Name>Persistent</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>TraceLevel</Name>
+            <EnumText>TCEVENTSEVERITY_Error</EnumText>
+          </Value>
+          <Value>
+            <Name>DataType</Name>
+            <EnumText>LREAL_</EnumText>
+          </Value>
+          <Value>
+            <Name>ComparisonOperatorEdgeOn</Name>
+            <EnumText>GreaterThanOrEqualTo</EnumText>
+          </Value>
+          <Value>
+            <Name>ThresholdEdgeOn</Name>
+            <Value>1</Value>
+          </Value>
+          <Value>
+            <Name>ComparisonOperatorEdgeOff</Name>
+            <EnumText>LessThan</EnumText>
+          </Value>
+          <Value>
+            <Name>ThresholdEdgeOff</Name>
+            <Value>1</Value>
+          </Value>
+          <Value>
+            <Name>Tolerance</Name>
+            <Value>0</Value>
+          </Value>
+          <Value>
+            <Name>InitWithThresholdLevel</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>NegIn</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>NegEnableExec</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>NegReset</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+          <Value>
+            <Name>SingleEdge</Name>
+            <EnumText>FALSE</EnumText>
+          </Value>
+        </ParameterValues>
+        <InterfacePointerValues>
+          <Value>
+            <Name>CyclicCaller</Name>
+            <OTCID>#x00000000</OTCID>
+          </Value>
+        </InterfacePointerValues>
+      </Module>
+    </Modules>
+  </System>
+</TcRuntimAdapterProject>
