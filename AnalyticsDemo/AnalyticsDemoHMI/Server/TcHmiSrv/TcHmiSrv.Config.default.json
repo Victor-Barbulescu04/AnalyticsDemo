@@ -29,7 +29,167 @@
     "DEFAULTTIMEFORMATLOCALE": "client",
     "DEFAULTTIMEZONE": "client",
     "DEFAULTUSERGROUP": "__SystemUsers",
-    "DEFINITIONS": {},
+    "DEFINITIONS": {
+        "XplanarPC.Tc3_PackML_V2.E_PMLCommand": {
+            "enum": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "options": [
+                {
+                    "label": "ePMLCommand_Undefined",
+                    "value": 0
+                },
+                {
+                    "label": "ePMLCommand_Reset",
+                    "value": 1
+                },
+                {
+                    "label": "ePMLCommand_Start",
+                    "value": 2
+                },
+                {
+                    "label": "ePMLCommand_Stop",
+                    "value": 3
+                },
+                {
+                    "label": "ePMLCommand_Hold",
+                    "value": 4
+                },
+                {
+                    "label": "ePMLCommand_Unhold",
+                    "value": 5
+                },
+                {
+                    "label": "ePMLCommand_Suspend",
+                    "value": 6
+                },
+                {
+                    "label": "ePMLCommand_Unsuspend",
+                    "value": 7
+                },
+                {
+                    "label": "ePMLCommand_Abort",
+                    "value": 8
+                },
+                {
+                    "label": "ePMLCommand_Clear",
+                    "value": 9
+                },
+                {
+                    "label": "ePMLCommand_Complete",
+                    "value": 10
+                }
+            ],
+            "type": "integer"
+        },
+        "XplanarPC.Tc3_PackML_V2.E_PMLState": {
+            "enum": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+            ],
+            "options": [
+                {
+                    "label": "ePMLState_Undefined",
+                    "value": 0
+                },
+                {
+                    "label": "ePMLState_Clearing",
+                    "value": 1
+                },
+                {
+                    "label": "ePMLState_Stopped",
+                    "value": 2
+                },
+                {
+                    "label": "ePMLState_Starting",
+                    "value": 3
+                },
+                {
+                    "label": "ePMLState_Idle",
+                    "value": 4
+                },
+                {
+                    "label": "ePMLState_Suspended",
+                    "value": 5
+                },
+                {
+                    "label": "ePMLState_Execute",
+                    "value": 6
+                },
+                {
+                    "label": "ePMLState_Stopping",
+                    "value": 7
+                },
+                {
+                    "label": "ePMLState_Aborting",
+                    "value": 8
+                },
+                {
+                    "label": "ePMLState_Aborted",
+                    "value": 9
+                },
+                {
+                    "label": "ePMLState_Holding",
+                    "value": 10
+                },
+                {
+                    "label": "ePMLState_Held",
+                    "value": 11
+                },
+                {
+                    "label": "ePMLState_Unholding",
+                    "value": 12
+                },
+                {
+                    "label": "ePMLState_Suspending",
+                    "value": 13
+                },
+                {
+                    "label": "ePMLState_Unsuspending",
+                    "value": 14
+                },
+                {
+                    "label": "ePMLState_Resetting",
+                    "value": 15
+                },
+                {
+                    "label": "ePMLState_Completing",
+                    "value": 16
+                },
+                {
+                    "label": "ePMLState_Complete",
+                    "value": 17
+                }
+            ],
+            "type": "integer"
+        }
+    },
     "DEFLATECOMPRESSIONLEVEL": 5,
     "DIAGNOSTICS_DOMAINS": [],
     "DISABLED_CONFIGURATION_HINTS": [],
@@ -4449,6 +4609,330 @@
             },
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
+        },
+        "XplanarPC.GVL.CleanModeOn": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::GVL::CleanModeOn",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.GVL.StationFeatureOn": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::GVL::StationFeatureOn",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::PackMLBaseModule_HMI::Command::State",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand"
+                    },
+                    {
+                        "propertyOrder": 2
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Status.State": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::PackMLBaseModule_HMI::Status::State",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLState"
+                    },
+                    {
+                        "propertyOrder": 5
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActPos.c": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[0]::_Mover::ActPos::c",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "C coordinate.",
+                        "propertyOrder": 6
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActPos.x": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[0]::_Mover::ActPos::x",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "X coordinate.",
+                        "propertyOrder": 1
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActPos.y": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[0]::_Mover::ActPos::y",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "Y coordinate.",
+                        "propertyOrder": 2
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActVelo.x": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[0]::_Mover::ActVelo::x",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "X coordinate.",
+                        "propertyOrder": 1
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActVelo.y": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[0]::_Mover::ActVelo::y",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "Y coordinate.",
+                        "propertyOrder": 2
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.1._Mover.ActPos.c": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[1]::_Mover::ActPos::c",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "C coordinate.",
+                        "propertyOrder": 6
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.1._Mover.ActPos.x": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[1]::_Mover::ActPos::x",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "X coordinate.",
+                        "propertyOrder": 1
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.1._Mover.ActPos.y": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[1]::_Mover::ActPos::y",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "Y coordinate.",
+                        "propertyOrder": 2
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.2._Mover.ActPos.c": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[2]::_Mover::ActPos::c",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "C coordinate.",
+                        "propertyOrder": 6
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.2._Mover.ActPos.x": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[2]::_Mover::ActPos::x",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "X coordinate.",
+                        "propertyOrder": 1
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.2._Mover.ActPos.y": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[2]::_Mover::ActPos::y",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "Y coordinate.",
+                        "propertyOrder": 2
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.3._Mover.ActPos.c": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[3]::_Mover::ActPos::c",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "C coordinate.",
+                        "propertyOrder": 6
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.3._Mover.ActPos.x": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[3]::_Mover::ActPos::x",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "X coordinate.",
+                        "propertyOrder": 1
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Machine.XPlanar.Movers.3._Mover.ActPos.y": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Machine::XPlanar::Movers[3]::_Mover::ActPos::y",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/LREAL"
+                    },
+                    {
+                        "comment": "Y coordinate.",
+                        "propertyOrder": 2
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "XplanarPC.MAIN.Restart.RESTART": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "XplanarPC::MAIN::Restart::RESTART",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/BOOL"
+                    },
+                    {
+                        "comment": "Rising edge on this input activates the fb execution",
+                        "propertyOrder": 2
+                    }
+                ]
+            },
+            "USEMAPPING": true
         }
     },
     "TEMPDH": "",
@@ -4551,7 +5035,26 @@
                 "Unsubscribe": 3,
                 "UnsubscribeEvents": 3,
                 "UpdateEventsSubscription": 3,
-                "UserSelectType": 1
+                "UserSelectType": 1,
+                "XplanarPC.GVL.CleanModeOn": 3,
+                "XplanarPC.GVL.StationFeatureOn": 3,
+                "XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State": 3,
+                "XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Status.State": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActPos.c": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActPos.x": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActPos.y": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActVelo.x": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.0._Mover.ActVelo.y": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.1._Mover.ActPos.c": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.1._Mover.ActPos.x": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.1._Mover.ActPos.y": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.2._Mover.ActPos.c": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.2._Mover.ActPos.x": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.2._Mover.ActPos.y": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.3._Mover.ActPos.c": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.3._Mover.ActPos.x": 3,
+                "XplanarPC.MAIN.Machine.XPlanar.Movers.3._Mover.ActPos.y": 3,
+                "XplanarPC.MAIN.Restart.RESTART": 3
             }
         }
     },

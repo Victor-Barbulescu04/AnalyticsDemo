@@ -365,11 +365,33 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+        "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
         "value": {
           "objectType": "StaticValue",
-          "valueType": "tchmi:server#/definitions/PLC1.Tc3_PackML_V2.E_PMLCommand",
+          "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
           "value": 9
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
+          "value": 1
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
+          "value": 2
         },
         "asyncWait": true
       }
@@ -380,12 +402,106 @@
     "actions": [
       {
         "objectType": "WriteToSymbol",
-        "active": true,
-        "symbolExpression": "%s%PLC1.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+        "active": false,
+        "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
         "value": {
           "objectType": "StaticValue",
-          "valueType": "tchmi:server#/definitions/PLC1.Tc3_PackML_V2.E_PMLCommand",
+          "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
           "value": 9
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "SwitchCase",
+        "active": true,
+        "compare": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLState",
+          "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Status.State%/s%"
+        },
+        "cases": [
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLState",
+              "value": 7
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
+                  "value": 1
+                },
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLState",
+              "value": 4
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
+                  "value": 2
+                },
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "caseValue": {
+              "objectType": "StaticValue",
+              "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLState",
+              "value": 9
+            },
+            "actions": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
+                  "value": 9
+                },
+                "asyncWait": true
+              }
+            ]
+          }
+        ],
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": false,
+        "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
+          "value": 1
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": false,
+        "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
+          "value": 2
         },
         "asyncWait": true
       }
@@ -545,10 +661,10 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
+        "symbolExpression": "%s%XplanarPC.MAIN.Machine.PackMLBaseModule_HMI.Command.State%/s%",
         "value": {
           "objectType": "StaticValue",
-          "valueType": "tchmi:server#/definitions/PLC1.Tc3_PackML_V2.E_PMLCommand",
+          "valueType": "tchmi:server#/definitions/XplanarPC.Tc3_PackML_V2.E_PMLCommand",
           "value": 8
         },
         "asyncWait": true
