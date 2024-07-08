@@ -1,3 +1,65 @@
 <div id="XPlanar" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%">
 
+<div id="Navigation_Left_1" data-tchmi-type="TcHmi.Controls.BaseTemplate.TcHmiNavigation" data-tchmi-width="17.5" data-tchmi-left="0" data-tchmi-top="0" data-tchmi-bottom="0" data-tchmi-target-region="%ctrl%TcHmiRegion%/ctrl%" data-tchmi-navigation-orientation="Vertical" data-tchmi-keep-lowest-level="true" data-tchmi-bottom-unit="%" data-tchmi-width-unit="%" data-tchmi-height="100" data-tchmi-height-unit="%">
+<script data-tchmi-target-attribute="data-tchmi-class-names" type="application/json">[
+"divider",
+"divider-left"
+]
+</script><script data-tchmi-target-attribute="data-tchmi-navigation-structure" type="application/json">
+[
+  {
+    "name": "XPlanar Panel",
+    "content": "Pages/XPlanar Pages/XPlanarPanel.content",
+    "icon_a": "%tr%TR_Icon_XPlanar_active%/tr%",
+    "icon_n": "%tr%TR_Icon_XTS_normal%/tr%",
+    "icon_p": "%tr%TR_Icon_XTS_pressed%/tr%"
+  },
+  {
+    "name": "XPlanar Videos",
+    "content": "Pages/XPlanar Pages/Videos.content",
+    "icon_a": "%tr%TR_Icon_XTS_active%/tr%",
+    "icon_n": "%tr%TR_Icon_XTS_normal%/tr%",
+    "icon_p": "%tr%TR_Icon_XTS_pressed%/tr%"
+  },
+  {
+    "name": "Product Manual",
+    "content": "Pages/XPlanar Pages/ProductManual.content",
+    "icon_a": "%tr%TR_Icon_XTS_active%/tr%",
+    "icon_n": "%tr%TR_Icon_XTS_normal%/tr%",
+    "icon_p": "%tr%TR_Icon_XTS_pressed%/tr%"
+  },
+  {
+    "name": "Demo Documentation",
+    "content": "Pages/XPlanar Pages/Documentation.content",
+    "icon_a": "%tr%TR_Icon_XTS_active%/tr%",
+    "icon_n": "%tr%TR_Icon_XTS_normal%/tr%",
+    "icon_p": "%tr%TR_Icon_XTS_pressed%/tr%"
+  },
+  {
+    "name": "EtherCAT Diagnostics",
+    "content": "Pages/XPlanar Pages/EtherCATDiagnostics.content",
+    "icon_a": "%tr%TR_Icon_XPlanar_active%/tr%",
+    "icon_n": "%tr%TR_Icon_XTS_normal%/tr%",
+    "icon_p": "%tr%TR_Icon_XTS_pressed%/tr%"
+  },
+  {
+    "name": "%l%L_Events%/l%",
+    "content": "Pages/Events.content",
+    "icon_a": "%tr%TR_Icon_Events_active%/tr%",
+    "icon_n": "%tr%TR_Icon_Events_normal%/tr%",
+    "icon_p": "%tr%TR_Icon_Events_pressed%/tr%"
+  },
+  {
+    "name": "%l%L_Settings%/l%",
+    "content": "Pages/Settings.content",
+    "icon_a": "%tr%TR_Icon_Settings_active%/tr%",
+    "icon_n": "%tr%TR_Icon_Settings_normal%/tr%",
+    "icon_p": "%tr%TR_Icon_Settings_pressed%/tr%"
+  }
+]
+</script>
+
+</div>
+<div id="TcHmiRegion" data-tchmi-type="TcHmi.Controls.System.TcHmiRegion" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="17.5" data-tchmi-left-unit="%" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="82.5" data-tchmi-width-unit="%">
+</div>
 </div>

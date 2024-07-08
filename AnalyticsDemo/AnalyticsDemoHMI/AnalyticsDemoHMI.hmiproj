@@ -22,7 +22,7 @@
     <TargetFramework>native1.12-tchmi</TargetFramework>
     <AzureFunctionsVersion>v2</AzureFunctionsVersion>
     <Name>AnalyticsDemoHMI</Name>
-    <HmiCommunicationRouterPort>10100</HmiCommunicationRouterPort>
+    <HmiCommunicationRouterPort>10101</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13000</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.760.59</HmiInitial>
     <HmiRecent>1.12.760.59</HmiRecent>
@@ -116,7 +116,10 @@
     <Folder Include="KeyboardLayouts\" />
     <Folder Include="Localization" />
     <Folder Include="Pages\" />
+    <Folder Include="Pages\XPlanar Pages" />
+    <Folder Include="Pages\XPlanar Pages\Pop-Ups" />
     <Folder Include="Server\ADS\" />
+    <Folder Include="Server\TcHmiEcDiagnostics" />
     <Folder Include="Server\TcHmiLua\" />
     <Folder Include="Server\TcHmiSqliteLogger\" />
     <Folder Include="Server\TcHmiSrv\" />
@@ -135,6 +138,54 @@
     <Content Include=".eslintrc.json">
       <Visible>false</Visible>
     </Content>
+    <Content Include="Imports\Images\Office Demo DocumentationV2.pdf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\Screenshot 2024-04-25 100445.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\Screenshot 2024-04-25 100558.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\Screenshot 2024-04-25 100636.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\Screenshot 2024-04-25 100720.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\XPlanar Original Manual.pdf">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\xplanar product image.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\XPlanar.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\XPlanarTile.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Images\xy.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Videos\Beckhoff_XPlanar_Sorting_Animation_1920x1440_en.MP4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Videos\beckhoff_xplanar_teaser_1920x1080_e.MP4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Videos\Demo Startup video.mp4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Videos\VTLX9149 %281%29.mp4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Videos\XPlanar-Garage---1920x1080---10000-CBR.MP4">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Imports\Videos\XTS_and_XPlanar_SPS2019.MP4">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\CNC.content">
       <SubType>Content</SubType>
     </Content>
@@ -150,6 +201,21 @@
     <Content Include="Pages\Vision.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Pages\XPlanar Pages\Documentation.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\XPlanar Pages\EtherCATDiagnostics.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\XPlanar Pages\ProductManual.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\XPlanar Pages\Videos.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Pages\XPlanar Pages\XPlanarPanel.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Pages\XPlanar.content">
       <SubType>Content</SubType>
     </Content>
@@ -163,6 +229,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Server\ADS\ADS.Storage.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Server\TcHmiEcDiagnostics\TcHmiEcDiagnostics.Config.default.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Server\TcHmiEcDiagnostics\TcHmiEcDiagnostics.Config.remote.json">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Server\TcHmiEcDiagnostics\TcHmiEcDiagnostics.Storage.json">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Server\TcHmiLua\TcHmiLua.Config.default.json">

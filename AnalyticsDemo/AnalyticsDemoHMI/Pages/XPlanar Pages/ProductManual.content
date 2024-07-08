@@ -1,0 +1,7 @@
+<div id="ProductManual" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="924" data-tchmi-height="694">
+
+<div id="TcHmiPdfViewer_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiPdfViewer" data-tchmi-height="640" data-tchmi-height-unit="px" data-tchmi-left="147" data-tchmi-left-unit="px" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="689" data-tchmi-width-unit="px" data-tchmi-file="Imports/Images/XPlanar Original Manual.pdf">
+</div>
+<div id="TcHmiContainer_10" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="724" data-tchmi-left-unit="px" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="120" data-tchmi-width-unit="px">
+</div>
+</div>
