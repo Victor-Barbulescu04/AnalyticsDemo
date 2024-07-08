@@ -57,11 +57,7 @@
       "type": "JavaScript"
     }
   ],
-  "userControls": [
-    {
-      "url": "Controls/SimpleProgressBar.usercontrol"
-    }
-  ],
+  "userControls": [],
   "content": [
     {
       "url": "Pages/CNC.content",

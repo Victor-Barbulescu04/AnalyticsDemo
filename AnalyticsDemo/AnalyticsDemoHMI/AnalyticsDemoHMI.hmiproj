@@ -140,6 +140,13 @@
     <Content Include=".eslintrc.json">
       <Visible>false</Visible>
     </Content>
+    <Content Include="Controls\StreamLocation.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>Controls\StreamLocation.js</DependentUpon>
+    </Content>
+    <Content Include="Controls\StreamLocation.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Imports\Images\Office Demo DocumentationV2.pdf">
       <SubType>Content</SubType>
     </Content>
