@@ -10,5 +10,8 @@
     <Content Include="Analytics Project.tcAlyProj">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Referenced Scope Project_1.tcscopex">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
 </Project>
