@@ -8,7 +8,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>baf40dfa-cad4-4bcc-9248-a2f84190254d</Guid>
-    <ModuleIdentification>64672640-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640000-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_8942</Name>
     <ReferencedModule>CTcAlyMinMaxAvg_1Ch_Instance1</ReferencedModule>
     <SelectedMapping>
@@ -27,7 +27,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>a9fb7556-4a3f-44d0-be2d-3229841f7a18</Guid>
-    <ModuleIdentification>24640190-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640064-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_8997</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch</ReferencedModule>
     <SelectedMapping>
@@ -46,7 +46,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>0398addb-5005-4442-b32f-e33e82593f0f</Guid>
-    <ModuleIdentification>246401f4-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>246400c8-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9046</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance1</ReferencedModule>
     <SelectedMapping>
@@ -65,7 +65,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>205f1339-5189-4e99-b462-97868a502c85</Guid>
-    <ModuleIdentification>24640258-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>2464012c-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9095</Name>
     <ReferencedModule>CTcAlyMathOperation</ReferencedModule>
     <SelectedMapping>
@@ -84,7 +84,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>c815127f-f9c0-4729-b234-627632ef1cf7</Guid>
-    <ModuleIdentification>246402bc-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640320-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9159</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance3</ReferencedModule>
     <SelectedMapping>
@@ -103,7 +103,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>819bc6b5-b925-4a82-9583-3f711c5f33f8</Guid>
-    <ModuleIdentification>64672640-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640190-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9313</Name>
     <ReferencedModule>CTcAlyMinMaxAvg_1Ch</ReferencedModule>
     <SelectedMapping>
@@ -122,7 +122,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>19b0ca89-09cc-4521-86ce-3899c6c4ec4b</Guid>
-    <ModuleIdentification>24640190-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>246401f4-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9368</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance5</ReferencedModule>
     <SelectedMapping>
@@ -141,7 +141,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>4c37a1a0-4004-4705-8874-295350818a27</Guid>
-    <ModuleIdentification>246401f4-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640258-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9417</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance7</ReferencedModule>
     <SelectedMapping>
@@ -160,7 +160,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>13f47d49-eb6b-4e10-b6fe-550339ef9f7c</Guid>
-    <ModuleIdentification>24640258-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>246402bc-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9466</Name>
     <ReferencedModule>CTcAlyMathOperation_Instance1</ReferencedModule>
     <SelectedMapping>
@@ -179,7 +179,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>89932e65-18b4-45e6-a65d-ad2136cb9e2e</Guid>
-    <ModuleIdentification>246402bc-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640384-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9530</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance9</ReferencedModule>
     <SelectedMapping>
@@ -198,7 +198,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>e92ebcb2-318c-4b6b-ad2e-ded5db4d8470</Guid>
-    <ModuleIdentification>64672640-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>246403e8-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9684</Name>
     <ReferencedModule>CTcAlyMinMaxAvg_1Ch_Instance3</ReferencedModule>
     <SelectedMapping>
@@ -217,7 +217,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>1c55b905-9e4f-4632-a5e8-ebc41d5b09b4</Guid>
-    <ModuleIdentification>24640190-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>2464044c-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9739</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance11</ReferencedModule>
     <SelectedMapping>
@@ -236,7 +236,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>7d9d02af-635c-49ec-9b5b-8425a9b247c9</Guid>
-    <ModuleIdentification>246401f4-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>246404b0-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9788</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance13</ReferencedModule>
     <SelectedMapping>
@@ -255,7 +255,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>9e317e12-f5b1-4373-8bcf-03ab2b33f13b</Guid>
-    <ModuleIdentification>24640258-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640514-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9837</Name>
     <ReferencedModule>CTcAlyMathOperation_Instance3</ReferencedModule>
     <SelectedMapping>
@@ -274,7 +274,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>a907906f-56f3-42fe-8e50-8cd3f25e12a7</Guid>
-    <ModuleIdentification>246402bc-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640578-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_9901</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance15</ReferencedModule>
     <SelectedMapping>
@@ -293,7 +293,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>009043d1-eadb-4281-bd7c-8339aa4c7717</Guid>
-    <ModuleIdentification>64672640-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>246405dc-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_10055</Name>
     <ReferencedModule>CTcAlyMinMaxAvg_1Ch_Instance5</ReferencedModule>
     <SelectedMapping>
@@ -312,7 +312,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>db17aacf-e6b1-4598-8ef2-fd8b69073306</Guid>
-    <ModuleIdentification>24640190-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640640-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_10110</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance17</ReferencedModule>
     <SelectedMapping>
@@ -331,7 +331,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>c6bf1070-bd17-4cff-bbde-140b2b8117ab</Guid>
-    <ModuleIdentification>246401f4-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>246406a4-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_10159</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance19</ReferencedModule>
     <SelectedMapping>
@@ -350,7 +350,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>875eeb1e-b290-4d10-b02a-b9d175841741</Guid>
-    <ModuleIdentification>24640258-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>24640708-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_10208</Name>
     <ReferencedModule>CTcAlyMathOperation_Instance5</ReferencedModule>
     <SelectedMapping>
@@ -369,7 +369,7 @@
     <GenerateGVL>false</GenerateGVL>
     <GlobalVariableType>InOutVariables</GlobalVariableType>
     <Guid>20f32e50-ed14-4d73-b4b4-88c28449d213</Guid>
-    <ModuleIdentification>246402bc-0000-0000-0000-000000000000</ModuleIdentification>
+    <ModuleIdentification>2464076c-0000-0000-0000-000000000000</ModuleIdentification>
     <Name>HMICtrlInfo_10272</Name>
     <ReferencedModule>CTcAlyMathOperation_1Ch_Instance21</ReferencedModule>
     <SelectedMapping>
@@ -1200,28 +1200,6 @@
     <TriggerResult>false</TriggerResult>
   </FunctionResultInfo>
   <InputSourceInfo AssemblyName="TwinCAT.Analytics.Workbench">
-    <ChartGuid>09f6c16b-0f57-420e-9df8-999d6fb3484f</ChartGuid>
-    <Comment />
-    <CycleTime>10000000</CycleTime>
-    <DisplayColor>Black</DisplayColor>
-    <Guid>3c850e25-a52e-4f22-95b9-198174c514fb</Guid>
-    <HasCustomTitle>true</HasCustomTitle>
-    <Name>InputSourceInfo_766</Name>
-    <ReferencedModule>2ce68fc2-544e-4098-b108-73a1d04a84e6</ReferencedModule>
-    <ReferencedTitle>169.254.18.187.1.1:851</ReferencedTitle>
-    <SortPriority>100</SortPriority>
-    <SourceInfo>&lt;TargetInfo TargetId="0"&gt;
-  &lt;AmsAddress&gt;
-    &lt;AmsNetId&gt;169.254.18.187.1.1&lt;/AmsNetId&gt;
-    &lt;Port&gt;851&lt;/Port&gt;
-  &lt;/AmsAddress&gt;
-  &lt;CycleTime Context="0"&gt;100000&lt;/CycleTime&gt;
-  &lt;CurrentContextMask&gt;0&lt;/CurrentContextMask&gt;
-&lt;/TargetInfo&gt;</SourceInfo>
-    <TimeOffset>0</TimeOffset>
-    <Title>CP2221-Local</Title>
-  </InputSourceInfo>
-  <InputSourceInfo AssemblyName="TwinCAT.Analytics.Workbench">
     <ChartGuid>1e95e453-2e93-4389-8c87-2f810d3e7892</ChartGuid>
     <Comment />
     <CycleTime>10000000</CycleTime>
@@ -1242,6 +1220,28 @@
 &lt;/TargetInfo&gt;</SourceInfo>
     <TimeOffset>0</TimeOffset>
     <Title>CX2062-XPlanar</Title>
+  </InputSourceInfo>
+  <InputSourceInfo AssemblyName="TwinCAT.Analytics.Workbench">
+    <ChartGuid>09f6c16b-0f57-420e-9df8-999d6fb3484f</ChartGuid>
+    <Comment />
+    <CycleTime>10000000</CycleTime>
+    <DisplayColor>Black</DisplayColor>
+    <Guid>3c850e25-a52e-4f22-95b9-198174c514fb</Guid>
+    <HasCustomTitle>true</HasCustomTitle>
+    <Name>InputSourceInfo_766</Name>
+    <ReferencedModule>2ce68fc2-544e-4098-b108-73a1d04a84e6</ReferencedModule>
+    <ReferencedTitle>169.254.18.187.1.1:851</ReferencedTitle>
+    <SortPriority>100</SortPriority>
+    <SourceInfo>&lt;TargetInfo TargetId="0"&gt;
+  &lt;AmsAddress&gt;
+    &lt;AmsNetId&gt;169.254.18.187.1.1&lt;/AmsNetId&gt;
+    &lt;Port&gt;851&lt;/Port&gt;
+  &lt;/AmsAddress&gt;
+  &lt;CycleTime Context="0"&gt;100000&lt;/CycleTime&gt;
+  &lt;CurrentContextMask&gt;0&lt;/CurrentContextMask&gt;
+&lt;/TargetInfo&gt;</SourceInfo>
+    <TimeOffset>0</TimeOffset>
+    <Title>CP2221-Local</Title>
   </InputSourceInfo>
   <Network AssemblyName="TwinCAT.Analytics.Workbench">
     <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
@@ -1448,7 +1448,7 @@
                     <OID>0</OID>
                     <PID>0</PID>
                     <GUID>00000000-0000-0000-0000-000000000000</GUID>
-                    <DynamicIdx>0</DynamicIdx>
+                    <DynamicIdx>-1</DynamicIdx>
                   </ElementID>
                 </LinkedElement>
                 <Name>NetworkInVariable_7885</Name>
@@ -1491,7 +1491,7 @@
                     <OID>0</OID>
                     <PID>0</PID>
                     <GUID>00000000-0000-0000-0000-000000000000</GUID>
-                    <DynamicIdx>0</DynamicIdx>
+                    <DynamicIdx>-1</DynamicIdx>
                   </ElementID>
                 </LinkedElement>
                 <Name>NetworkInVariable_7887</Name>
@@ -1518,7 +1518,7 @@
         <Title>Network_8935</Title>
         <TriggerResults>false</TriggerResults>
         <VisibleArrayChartGuid>00000000-0000-0000-0000-000000000000</VisibleArrayChartGuid>
-        <VisibleNetworkChartGuid>00000000-0000-0000-0000-000000000000</VisibleNetworkChartGuid>
+        <VisibleNetworkChartGuid>cbbd9408-8595-4bf3-bd2f-6c2864243a6c</VisibleNetworkChartGuid>
       </Network>
       <Network AssemblyName="TwinCAT.Analytics.Workbench">
         <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
@@ -1679,7 +1679,7 @@
                     <OID>0</OID>
                     <PID>0</PID>
                     <GUID>00000000-0000-0000-0000-000000000000</GUID>
-                    <DynamicIdx>0</DynamicIdx>
+                    <DynamicIdx>-1</DynamicIdx>
                   </ElementID>
                 </LinkedElement>
                 <Name>NetworkInVariable_7885</Name>
@@ -1722,7 +1722,7 @@
                     <OID>0</OID>
                     <PID>0</PID>
                     <GUID>00000000-0000-0000-0000-000000000000</GUID>
-                    <DynamicIdx>0</DynamicIdx>
+                    <DynamicIdx>-1</DynamicIdx>
                   </ElementID>
                 </LinkedElement>
                 <Name>NetworkInVariable_7887</Name>
@@ -1749,7 +1749,7 @@
         <Title>Network_9306</Title>
         <TriggerResults>false</TriggerResults>
         <VisibleArrayChartGuid>00000000-0000-0000-0000-000000000000</VisibleArrayChartGuid>
-        <VisibleNetworkChartGuid>00000000-0000-0000-0000-000000000000</VisibleNetworkChartGuid>
+        <VisibleNetworkChartGuid>2d755add-25df-4264-a6ec-5a8411dec2fc</VisibleNetworkChartGuid>
       </Network>
       <Network AssemblyName="TwinCAT.Analytics.Workbench">
         <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
@@ -1910,7 +1910,7 @@
                     <OID>0</OID>
                     <PID>0</PID>
                     <GUID>00000000-0000-0000-0000-000000000000</GUID>
-                    <DynamicIdx>0</DynamicIdx>
+                    <DynamicIdx>-1</DynamicIdx>
                   </ElementID>
                 </LinkedElement>
                 <Name>NetworkInVariable_7885</Name>
@@ -1953,7 +1953,7 @@
                     <OID>0</OID>
                     <PID>0</PID>
                     <GUID>00000000-0000-0000-0000-000000000000</GUID>
-                    <DynamicIdx>0</DynamicIdx>
+                    <DynamicIdx>-1</DynamicIdx>
                   </ElementID>
                 </LinkedElement>
                 <Name>NetworkInVariable_7887</Name>
@@ -1980,7 +1980,7 @@
         <Title>Network_9677</Title>
         <TriggerResults>false</TriggerResults>
         <VisibleArrayChartGuid>00000000-0000-0000-0000-000000000000</VisibleArrayChartGuid>
-        <VisibleNetworkChartGuid>00000000-0000-0000-0000-000000000000</VisibleNetworkChartGuid>
+        <VisibleNetworkChartGuid>413b0a8c-5613-46b7-b2a4-2a3089807322</VisibleNetworkChartGuid>
       </Network>
       <Network AssemblyName="TwinCAT.Analytics.Workbench">
         <ActiveScopeConfiguration>00000000-0000-0000-0000-000000000000</ActiveScopeConfiguration>
@@ -2141,7 +2141,7 @@
                     <OID>0</OID>
                     <PID>0</PID>
                     <GUID>00000000-0000-0000-0000-000000000000</GUID>
-                    <DynamicIdx>0</DynamicIdx>
+                    <DynamicIdx>-1</DynamicIdx>
                   </ElementID>
                 </LinkedElement>
                 <Name>NetworkInVariable_7885</Name>
@@ -2184,7 +2184,7 @@
                     <OID>0</OID>
                     <PID>0</PID>
                     <GUID>00000000-0000-0000-0000-000000000000</GUID>
-                    <DynamicIdx>0</DynamicIdx>
+                    <DynamicIdx>-1</DynamicIdx>
                   </ElementID>
                 </LinkedElement>
                 <Name>NetworkInVariable_7887</Name>
@@ -2211,7 +2211,7 @@
         <Title>Network_10048</Title>
         <TriggerResults>false</TriggerResults>
         <VisibleArrayChartGuid>00000000-0000-0000-0000-000000000000</VisibleArrayChartGuid>
-        <VisibleNetworkChartGuid>00000000-0000-0000-0000-000000000000</VisibleNetworkChartGuid>
+        <VisibleNetworkChartGuid>9bc1540c-be17-41ac-a992-bfc34a905b85</VisibleNetworkChartGuid>
       </Network>
     </SubMember>
     <Title>Network_8891</Title>
@@ -2236,6 +2236,14 @@
           <ArrayOfGuid>
             <guid>662b941b-1ca7-4263-9de7-eb6f361c6355</guid>
             <guid>6bf240c7-f9a9-401b-8c65-c31f621ecc58</guid>
+            <guid>c4464e44-823e-490f-b92c-25d46a67c3c8</guid>
+            <guid>b57d4cb4-a376-4d8a-b465-62df5a802e83</guid>
+            <guid>f8b973eb-8e59-40f3-9395-6cd9aaada13c</guid>
+            <guid>12a80218-9c84-4132-9c4f-9899ecd3519a</guid>
+            <guid>5c368f3c-17d5-49c4-852a-0069fa8f0b59</guid>
+            <guid>bffa8080-2637-490f-a20f-61cbfd9916d1</guid>
+            <guid>57ba8c3f-84bc-4b73-94da-ccd35fe44b5e</guid>
+            <guid>16195064-892f-4e63-b95a-2dd58699f2f2</guid>
           </ArrayOfGuid>
         </Value>
       </DictionaryItem>
@@ -2246,6 +2254,9 @@
         <Value>
           <ArrayOfGuid>
             <guid>652b5f6d-dde0-41cd-a750-1870c372ee78</guid>
+            <guid>cbbd9408-8595-4bf3-bd2f-6c2864243a6c</guid>
+            <guid>02d14e1c-5386-4f01-be7b-9e65d0e835c2</guid>
+            <guid>253eba4d-b1f7-47e0-bb42-93fc37fb7ea2</guid>
           </ArrayOfGuid>
         </Value>
       </DictionaryItem>
@@ -2256,6 +2267,9 @@
         <Value>
           <ArrayOfGuid>
             <guid>ae4cd71b-caa5-4406-b2fa-f531173f4ce2</guid>
+            <guid>2d755add-25df-4264-a6ec-5a8411dec2fc</guid>
+            <guid>908d4d3a-c600-4258-89c0-e39ecd4f5685</guid>
+            <guid>84a85819-5625-4c60-b4d8-f774e13c39c1</guid>
           </ArrayOfGuid>
         </Value>
       </DictionaryItem>
@@ -2266,6 +2280,9 @@
         <Value>
           <ArrayOfGuid>
             <guid>1571bae6-0faf-4d0a-851d-008fd22d1c58</guid>
+            <guid>413b0a8c-5613-46b7-b2a4-2a3089807322</guid>
+            <guid>9ceb9a15-75ac-478b-9675-6f94905866d0</guid>
+            <guid>43c1d2d8-6239-4ae8-a675-c0ef1d7f2531</guid>
           </ArrayOfGuid>
         </Value>
       </DictionaryItem>
@@ -2276,6 +2293,9 @@
         <Value>
           <ArrayOfGuid>
             <guid>38e30d50-39ae-481e-8b71-b2582ce818ba</guid>
+            <guid>9bc1540c-be17-41ac-a992-bfc34a905b85</guid>
+            <guid>2766e014-f4a2-425a-91da-e9617caea7df</guid>
+            <guid>1f79e6e2-5cee-4489-baf1-149d4f23fa0e</guid>
           </ArrayOfGuid>
         </Value>
       </DictionaryItem>
@@ -4661,7 +4681,7 @@
             <NetworkID>3</NetworkID>
             <ParentEnabled>true</ParentEnabled>
             <SelfEnabled>true</SelfEnabled>
-            <SortPriority>100</SortPriority>
+            <SortPriority>64</SortPriority>
             <SubMember />
             <Title>Mover 1 Velocity Stats</Title>
           </HMIContentMap>
@@ -4726,7 +4746,7 @@
             <NetworkID>4</NetworkID>
             <ParentEnabled>true</ParentEnabled>
             <SelfEnabled>true</SelfEnabled>
-            <SortPriority>100</SortPriority>
+            <SortPriority>96</SortPriority>
             <SubMember />
             <Title>Mover 2 Velocity Stats</Title>
           </HMIContentMap>
@@ -4791,7 +4811,7 @@
             <NetworkID>5</NetworkID>
             <ParentEnabled>true</ParentEnabled>
             <SelfEnabled>true</SelfEnabled>
-            <SortPriority>100</SortPriority>
+            <SortPriority>128</SortPriority>
             <SubMember />
             <Title>Mover 4 Velocity Stats</Title>
           </HMIContentMap>
@@ -4856,7 +4876,7 @@
             <NetworkID>6</NetworkID>
             <ParentEnabled>true</ParentEnabled>
             <SelfEnabled>true</SelfEnabled>
-            <SortPriority>100</SortPriority>
+            <SortPriority>112</SortPriority>
             <SubMember />
             <Title>Mover 3 Velocity Stats</Title>
           </HMIContentMap>
